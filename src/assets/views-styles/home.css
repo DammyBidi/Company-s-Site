@@ -1,0 +1,582 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav .logo img {
+  width: 5rem;
+}
+
+nav .logo div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+nav .logo h3 {
+  font-size: 2.5rem;
+  color: #eeeef0;
+  /* line-height: 1; */
+}
+
+nav .logo p {
+  font-size: 1rem;
+  color: #eeeef0;
+  margin-left: 8px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links .home {
+  color: #ffffff;
+  border-bottom: 2px solid #1a4bff;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-links a {
+  color: #b2b3bd;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #1a4bff;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+nav button {
+  background-color: #1a4bff;
+  color: #ffffff;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 3.125rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 16.8rem;
+}
+
+hr {
+  border: 0.1px solid #b2b3bd;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  text-align: center;
+
+  padding: 0 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.glowing-button {
+  background-color: #303136;
+  padding: 0.8rem 1.5rem;
+  border-radius: 1.5rem;
+  border: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  color: #ffffff !important;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.glowing-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 1.5rem;
+  padding: 2px;
+  background: linear-gradient(0deg, #1a4bff 0%, rgba(16, 45, 153, 0) 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: subtract;
+  pointer-events: none;
+}
+
+.hero h1 {
+  font-size: 4.6rem;
+  color: #eeeef0;
+  line-height: 1.5;
+}
+
+.hero .paragraph {
+  font-size: 1.25rem;
+  color: #b2b3bd;
+  width: 65rem;
+}
+
+.hero .join-us {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  background-color: #303136;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+}
+
+.hero .join-us p {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.hero .btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hero .btn :first-child {
+  background-color: #1a4bff;
+  color: #ffffff;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 3.125rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 16.8rem;
+}
+
+.hero .btn :last-child {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 1rem 2.5rem;
+  border-radius: 3.125rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 16.8rem;
+}
+
+.hero-image {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 8rem;
+  padding: 0 2rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+/* Our services */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.services h3 {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.services p {
+  font-size: 1.25rem;
+  color: #b2b3bd;
+}
+
+.services .service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  background-color: #303136;
+  padding: 5rem 2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.service-card div {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.service-card img {
+  width: 3rem;
+}
+
+.service-card h4 {
+  font-size: 1.5rem;
+  color: #eeeef0;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #eeeef0;
+}
+
+/* why choose us */
+
+.choose {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.choose h1 {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.choose .reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.choose .reason {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.reason .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+}
+
+.reason .image {
+  width: 50%;
+}
+
+.reason .image img {
+  width: 100%;
+}
+
+.reason .text h3 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.reason .text p {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+/* Portfolio */
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.portfolio h2 {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.portfolio p {
+  font-size: 1.25rem;
+  color: #b2b3bd;
+}
+
+.portfolio-images {
+  display: flex;
+  align-content: stretch;
+
+  gap: 2rem;
+}
+
+.portfolio-images .left {
+  width: 50%;
+  border-radius: 2rem;
+}
+
+.portfolio-images .right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+.portfolio-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.portfolio .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio .btn button {
+  background-color: #1a4bff;
+  color: #ffffff;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 3.125rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 16.8rem;
+  margin-top: 1rem;
+}
+
+/* FAQ SECTION */
+
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.faq-section h2 {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.faq-item {
+  border-bottom: 1px solid #b2b3bd;
+  padding: 1.5rem 0;
+  cursor: pointer;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #eeeef0;
+}
+
+.faq-answer {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #b2b3bd;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.faq-toggle-icon {
+  width: 1.5rem;
+}
+
+/* Touch logo */
+
+.touch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.touch img {
+  width: 70rem;
+}
+
+.touch-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.touch-text h1 {
+  font-size: 3.8rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.touch-text button {
+  background-color: #1a4bff;
+  color: #ffffff;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 3.125rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 16.8rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: #303136;
+}
+
+.footer-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 8rem;
+
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+footer .left {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+footer .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+footer .logo img {
+  width: 8rem;
+}
+
+footer .logo div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .logo h3 {
+  font-size: 2.5rem;
+  color: #eeeef0;
+}
+
+footer .logo p {
+  font-size: 1rem;
+  color: #eeeef0;
+}
+
+footer .socials {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer .right {
+  display: flex;
+  gap: 2.5rem;
+}
+
+footer .footer-links,
+footer .legal {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+footer .footer-links h4,
+footer .legal h4 {
+  font-size: 1.5rem;
+  color: #eeeef0;
+}
+
+footer .footer-links a,
+footer .legal a {
+  font-size: 1rem;
+  color: #b2b3bd;
+  text-decoration: none;
+}
+
+/* <div class="FAQ-section">
+<h2>FAQ</h2>
+<div class="FAQ">
+  <div class="question">
+    <h3>What services do you offer?</h3>
+    <p>
+      We offer a comprehensive suite of services, including web development,
+      mobile app development, UI/UX design, and AI consulting. Our team of
+      experts is dedicated to delivering solutions that drive success and
+      innovation for your business
+    </p>
+  </div>
+  <div class="question">
+    <h3>How do I get started?</h3>
+    <p>
+      Getting started is easy! Simply reach out to us through our contact
+      form, and one of our team members will be in touch to discuss your
+      project requirements. We'll work with you every step of the way to
+      turn your ideas into impactful digital solutions
+    </p>
+  </div>
+  <div class="question">
+    <h3>What industries do you work with?</h3>
+    <p>
+      We work with businesses across various industries, including
+      e-commerce, healthcare, finance, and more. Our solutions are tailored
+      to meet the unique needs of each industry, enabling businesses to
+      enhance their digital presence and drive growth
+    </p>
+  </div>
+</div>
+
+</div> */
