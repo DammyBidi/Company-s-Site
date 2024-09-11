@@ -182,8 +182,8 @@
           <img
             :src="
               activeIndex === index
-                ? '/src/assets/images/chevron-up.svg'
-                : '/src/assets/images/chevron-down.svg'
+                ? '/chevron-up.svg'
+                : '/chevron-down.svg'
             "
             class="faq-toggle-icon"
             alt="Toggle icon"
