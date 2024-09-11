@@ -262,7 +262,7 @@ const faqs = ref<Faq[]>([
   {
     question: "How do you ensure the quality of your projects?",
     answer:
-      "Our CEO who is a QA Engr will hit the application on concrete fall plenty number of times to ensure its durability",
+      "Our CEO who is a QA Engr will hit the application on concrete floor plenty number of times to ensure its durability",
   },
   {
     question: "What is your approach to customer collaboration?",
