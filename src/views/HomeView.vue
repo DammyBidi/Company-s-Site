@@ -11,6 +11,7 @@
       <div class="nav-links">
         <router-link class="homelink" to="/">Home</router-link>
         <router-link to="/contact">Portfolio</router-link>
+        <router-link to="/services">Services</router-link>
         <router-link to="/about">About Us</router-link>
         <router-link to="/contact">Contact us</router-link>
       </div>

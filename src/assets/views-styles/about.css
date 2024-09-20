@@ -249,7 +249,7 @@ hr {
 .contact .buttons :first-child {
   background-color: #1a4bff;
   color: #ffffff;
-  padding: 1rem 2.5rem;
+  padding: 0.875rem 0.75rem;
   border: none;
   border-radius: 3.125rem;
   font-size: 1.2rem;
@@ -261,7 +261,7 @@ hr {
   background-color: transparent;
   border: 1px solid #ffffff;
   color: #ffffff;
-  padding: 1rem 2.5rem;
+  padding: 0.875rem 0.75rem;
   border-radius: 3.125rem;
   font-size: 1.2rem;
   cursor: pointer;
