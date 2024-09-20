@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <Footer>
     <div class="footer-content">
       <div class="left">
         <div class="logo">
@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </Footer>
 </template>
 
 <script setup lang="ts">
