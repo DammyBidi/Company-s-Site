@@ -123,14 +123,14 @@
         <button>Explore our services</button>
       </div>
     </div>
-    
 
-    <Footer />
+
+    <FooterComponent />
   </div>
 </template>
 
 <script setup lang="ts">
-import Footer from "../components/Footer.vue";
+import FooterComponent from "../components/FooterComponent.vue";
 
 
 </script>

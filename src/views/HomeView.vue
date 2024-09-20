@@ -206,13 +206,13 @@
       <button>Lets get you started</button>
     </div>
 
-    <Footer />
+    <FooterComponent />
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from "vue";
-import Footer from "../components/Footer.vue";
+import FooterComponent from "../components/FooterComponent.vue";
 
 interface Faq {
   question: string;
