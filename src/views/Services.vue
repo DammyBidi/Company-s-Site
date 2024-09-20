@@ -13,7 +13,7 @@
         <router-link to="/contact">Portfolio</router-link>
         <router-link class="services-link" to="/services">Services</router-link>
         <router-link to="/about">About Us</router-link>
-        <router-link to="/contact">Contact us</router-link>
+        <router-link to="/contact-us">Contact us</router-link>
       </div>
       <button>Get in touch with us</button>
     </nav>
