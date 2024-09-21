@@ -111,8 +111,8 @@ hr {
 
 .contact-container {
   display: flex;
-  align-items: center;
-    justify-content: space-between;
+  /* align-items: center; */
+  justify-content: space-between;
   /* gap: 2rem; */
   padding: 0rem 3rem;
   max-width: 1440px;
@@ -123,7 +123,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-    width: 50%;
+  width: 50%;
 }
 
 .contact-container .text h2 {
@@ -172,9 +172,58 @@ hr {
 .form {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   width: 50%;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   border-radius: 20px;
   padding: 1.875rem;
+}
+
+.form h2 {
+  font-size: 2rem;
+  color: #000000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+form label {
+  font-size: 1rem;
+  color: #111111;
+}
+
+form .input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+form .input input,
+form .input textarea {
+  padding: 0.75rem;
+  border: 1px solid #5f606a;
+  border-radius: 10px;
+  /* width: 36.938rem; */
+  background-color: transparent;
+  font-family: "Manrope", sans-serif;
+  font-size: 1rem;
+}
+
+form .btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+form .btn button {
+  background-color: #1a4bff;
+  color: #ffffff;
+  padding: 0.75rem 2.5rem;
+  border: none;
+  border-radius: 3.125rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 16.8rem;
 }

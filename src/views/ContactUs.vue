@@ -68,26 +68,27 @@
         <form action="">
           <div class="input">
             <label for="name">Name</label>
-            <input type="text" id="name" />
+            <input placeholder="Fill in your full name" type="text" id="name" />
           </div>
           <div class="input">
             <label for="email">Email</label>
-            <input type="email" id="email" />
+            <input placeholder="abu@mail.com" type="email" id="email" />
           </div>
           <div class="input">
             <label for="phonenumber">Phone Number</label>
-            <input type="number" id="number" />
+            <input placeholder="+234006677755" type="number" id="number" />
           </div>
           <div class="input">
             <label for="message">Message</label>
             <textarea
+              placeholder="Write your message here"
               name="message"
               id="message"
               cols="30"
               rows="10"
             ></textarea>
           </div>
-          <button>Send Message</button>
+          <div class="btn"><button>Send Message</button></div>
         </form>
       </div>
     </div>
@@ -98,7 +99,6 @@
 
 <script setup lang="ts">
 import FooterComponent from "../components/FooterComponent.vue";
-
 </script>
 
 <style scoped>

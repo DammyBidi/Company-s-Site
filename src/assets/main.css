@@ -39,7 +39,7 @@ h1, h2, h3 {
   font-style: normal;
 }
 
-p, button, h4, a {
+p, button, h4, a, label {
   font-family: 'Manrope', sans-serif;
   font-weight: 500;
   font-style: normal;
