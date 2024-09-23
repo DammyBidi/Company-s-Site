@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav .logo img {
+  width: 3.5rem;
+}
+
+nav .logo div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+nav .logo h3 {
+  font-size: 1.5rem;
+  color: #eeeef0;
+  /* line-height: 1; */
+}
+
+nav .logo p {
+  font-size: 0.6rem;
+  color: #eeeef0;
+  margin-left: 8px;
+  line-height: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links .portfolio-link {
+  color: #ffffff;
+  border-bottom: 2px solid #1a4bff;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-links a {
+  color: #b2b3bd;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #1a4bff;
+  padding-bottom: 0.5rem;
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
+}
+
+nav button {
+  background-color: #1a4bff;
+  color: #ffffff;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 3.125rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 16.8rem;
+}
+
+hr {
+  border: 0.1px solid #b2b3bd;
+}
+
+/* hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0rem 3rem;
+  max-width: 1440px;
+  margin: 4rem auto 0;
+}
+
+.hero h1 {
+  font-size: 3.813rem;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #b2b3bd;
+  text-align: center;
+}
+
+/* portfolio */
+
+.portfolio {
+    display: flex;
+    flex-direction: column; 
+    gap: 3rem; 
+    padding: 0rem 3rem;
+    max-width: 1440px;
+    margin: 6rem auto 0;
+} 
+
+.portfolio .top-section, .portfolio .bottom-section {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+

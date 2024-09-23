@@ -27,6 +27,7 @@ nav .logo div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 0.5rem;
 }
 
 nav .logo h3 {
@@ -39,6 +40,7 @@ nav .logo p {
   font-size: 0.6rem;
   color: #eeeef0;
   margin-left: 8px;
+  line-height: 0;
 }
 
 .nav-links {

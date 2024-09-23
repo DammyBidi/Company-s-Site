@@ -27,6 +27,7 @@ nav .logo div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 0.5rem;
 }
 
 nav .logo h3 {
@@ -39,6 +40,7 @@ nav .logo p {
   font-size: 0.6rem;
   color: #eeeef0;
   margin-left: 8px;
+  line-height: 0;
 }
 
 .nav-links {
@@ -158,13 +160,13 @@ hr {
   font-size: 1.2rem;
 }
 
-.hero .btn {
+.hero .buttons {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.hero .btn :first-child {
+.hero .buttons .btn1 {
   background-color: #1a4bff;
   color: #ffffff;
   padding: 1rem 2.5rem;
@@ -175,7 +177,7 @@ hr {
   width: 16.8rem;
 }
 
-.hero .btn :last-child {
+.hero .buttons .btn2 {
   background-color: transparent;
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -335,7 +337,6 @@ hr {
 .portfolio-images {
   display: flex;
   align-content: stretch;
-
   gap: 2rem;
 }
 

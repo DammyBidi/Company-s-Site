@@ -10,12 +10,12 @@
       </div>
       <div class="nav-links">
         <router-link class="homelink" to="/">Home</router-link>
-        <router-link to="/contact">Portfolio</router-link>
+        <router-link to="/portfolio">Portfolio</router-link>
         <router-link to="/services">Services</router-link>
         <router-link to="/about">About Us</router-link>
-        <router-link to="/contact-us">Contact us</router-link>
+        <router-link to="/blog">Blog</router-link>
       </div>
-      <button>Get in touch with us</button>
+      <router-link to="/contact-us"><button>Get in touch with us</button></router-link>
     </nav>
     <hr />
 
@@ -33,9 +33,9 @@
         <img src="../assets/images/buttonimg.svg" alt="" />
         <p>Join us today</p>
       </div>
-      <div class="btn">
-        <button>Get Started</button>
-        <button>Learn more</button>
+      <div class="buttons">
+        <router-link to="/contact-us"><button class="btn1">Get Started</button></router-link>
+        <router-link to="/about"><button class="btn2">Learn More</button></router-link>
       </div>
     </div>
 
