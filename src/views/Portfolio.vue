@@ -1,5 +1,6 @@
 <template>
   <div id="portfolio">
+    <MobileNav />
     <nav>
       <div class="logo">
         <img src="../assets/images/TTS Logo.svg" alt="" />
@@ -26,7 +27,7 @@
       <h1>Portfolio</h1>
       <p>
         Explore our portfolio to see how we've helped businesses achieve their
-        digital goals. From web development and UI/UX design to AI <br />
+        digital goals. From web development and UI/UX design to AI
         solutions, our work showcases the creativity and precision we bring to
         every project. Discover how we turn ideas into impactful digital
         experiences.
@@ -45,12 +46,23 @@
       </div>
     </div>
 
+    <div class="mobile-portfolio">
+      <img src="../assets/images/Frame20.svg" alt="portfolio-images">
+      <img src="../assets/images/Frame20.svg" alt="portfolio-images">
+      <img src="../assets/images/Frame20.svg" alt="portfolio-images">
+      <img src="../assets/images/Frame20.svg" alt="portfolio-images">
+
+    </div>
+
+
+
     <!-- Footer -->
     <FooterComponent />
   </div>
 </template>
 
 <script setup lang="ts">
+import MobileNav from "../components/MobileNav.vue";
 import FooterComponent from "../components/FooterComponent.vue";
 
 </script>

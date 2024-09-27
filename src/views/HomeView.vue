@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <MobileNav />
     <nav>
       <div class="logo">
         <img src="../assets/images/TTS Logo.svg" alt="" />
@@ -19,7 +20,8 @@
     </nav>
     <hr />
 
-    <div class="hero">
+    <div >
+      <div class="hero">
       <p class="glowing-button">Welcome to trailblazing</p>
       <h1>Engineering Excellence,<br />Fueling Innovation.</h1>
       <p class="paragraph">
@@ -41,6 +43,11 @@
 
     <div class="hero-image">
       <img src="../assets/images/hero.svg" alt="" />
+    </div>
+
+    <div class="mobile-hero-image">
+      <img src="../assets/images/mobile-hero-image.svg" alt="">
+
     </div>
 
     <!-- Our services -->
@@ -116,7 +123,7 @@
             </p>
           </div>
         </div>
-        <div class="reason">
+        <div class="reason mobile-reason">
           <div class="text">
             <h3>Customer-Centric Approach</h3>
             <p>
@@ -160,17 +167,24 @@
       </p>
       <div class="portfolio-images">
         <div class="left">
-          <img src="../assets/images/portfolio1.svg" alt="" />
+          <img src="../assets/images/portfolio1.svg" alt="portfolio-images" />
         </div>
         <div class="right">
           <div class="right-top">
-            <img src="../assets/images/portfolio2.svg" alt="" />
+            <img src="../assets/images/portfolio2.svg" alt="portfolio-images" />
           </div>
           <div class="right-bottom">
-            <img src="../assets/images/portfolio3.svg" alt="" />
+            <img src="../assets/images/portfolio3.svg" alt="portfolio-images" />
           </div>
         </div>
       </div>
+      <div class="mobile-portfolio-images">
+        <img src="../assets/images/mobile-portfolio-image.svg" alt="portfolio-images">
+        <img src="../assets/images/mobile-portfolio-image.svg" alt="portfolio-images">
+        <img src="../assets/images/mobile-portfolio-image.svg" alt="portfolio-images">
+      </div>
+
+
       <div class="btn"><button>See more</button></div>
     </div>
 
@@ -208,11 +222,16 @@
     </div>
 
     <FooterComponent />
+
+    </div>
+
+    
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from "vue";
+import MobileNav from "../components/MobileNav.vue";
 import FooterComponent from "../components/FooterComponent.vue";
 
 interface Faq {

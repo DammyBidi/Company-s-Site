@@ -80,3 +80,32 @@ footer .legal a {
   color: #b2b3bd;
   text-decoration: none;
 }
+
+@media screen and (max-width: 900px) {
+  .footer-content {
+    margin-top: 4rem;
+    padding: 3rem 1rem 2rem;
+    flex-direction: column-reverse;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  footer .left {
+    gap: 4rem;
+  }
+
+  footer .socials {
+    gap: 1.5rem;
+  }
+
+  footer .right {
+    gap: 5rem;
+  }
+
+  footer .footer-links, footer .legal {
+    gap: 1rem;
+  }
+
+
+
+}

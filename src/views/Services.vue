@@ -1,5 +1,6 @@
 <template>
   <div id="services">
+    <MobileNav />
     <nav>
       <div class="logo">
         <img src="../assets/images/TTS Logo.svg" alt="" />
@@ -50,7 +51,7 @@
             </p>
           </div>
         </div>
-        <div class="service">
+        <div class="service mobile-service">
           <div class="text">
             <h3>Mobile app development</h3>
             <p>
@@ -97,6 +98,7 @@
 </template>
 
 <script setup lang="ts">
+import MobileNav from "../components/MobileNav.vue";
 import FooterComponent from "../components/FooterComponent.vue";
 
 

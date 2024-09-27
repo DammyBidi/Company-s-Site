@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <MobileNav />
     <nav>
       <div class="logo">
         <img src="../assets/images/TTS Logo.svg" alt="" />
@@ -68,7 +69,7 @@
             </p>
           </div>
         </div>
-        <div class="value">
+        <div class="value mobile-value">
           <div class="text">
             <h3>Customer-Centric Approach</h3>
             <p>
@@ -131,6 +132,7 @@
 </template>
 
 <script setup lang="ts">
+import MobileNav from "../components/MobileNav.vue";  
 import FooterComponent from "../components/FooterComponent.vue";
 
 

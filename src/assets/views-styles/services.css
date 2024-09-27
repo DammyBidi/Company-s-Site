@@ -199,3 +199,67 @@ hr {
     cursor: pointer;
     width: 16.8rem;
   }
+
+  @media screen and (max-width: 900px) {
+    nav {
+      display: none;
+    }
+
+    .hero {
+      padding: 0 1rem;
+      max-width: 100%;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      font-size: 1rem;
+    }
+
+    .our-services {
+      padding: 0 1rem;
+      margin: 4rem auto 0;
+      max-width: 100%;
+    }
+
+    .our-services h1 {
+      font-size: 2.5rem;
+    }
+
+    .our-services .service {
+      flex-direction: column;
+    }
+
+    .mobile-service {
+      display: flex;
+      flex-direction: column-reverse !important;
+    }
+
+    .service .text {
+      width: 100%;
+    }
+
+    .service .image {
+      width: 100%;
+    }
+
+    .service .text p {
+      font-size: 1rem;
+    }
+
+    /* contact */
+
+    .contact {
+      padding: 0 1rem;
+      margin: 4rem auto;
+      max-width: 100%;
+    }
+
+    .contact .buttons {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+  }

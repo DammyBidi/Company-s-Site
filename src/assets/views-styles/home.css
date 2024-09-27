@@ -201,6 +201,10 @@ hr {
   width: 100%;
 }
 
+.mobile-hero-image{
+  display: none;
+}
+
 /* Our services */
 
 .services {
@@ -287,6 +291,7 @@ hr {
   align-items: center;
 }
 
+
 .reason .text {
   display: flex;
   flex-direction: column;
@@ -332,6 +337,10 @@ hr {
 .portfolio p {
   font-size: 1.25rem;
   color: #b2b3bd;
+}
+
+.mobile-portfolio-images{
+  display: none;
 }
 
 .portfolio-images {
@@ -438,9 +447,6 @@ hr {
   margin-top: 8rem;
 }
 
-.touch img {
-  /* width: 70rem; */
-}
 
 .touch-text {
   display: flex;
@@ -580,3 +586,194 @@ footer .legal a {
 </div>
 
 </div> */
+
+/* Media query */
+
+@media screen and (max-width: 900px) {
+  nav {
+    display: none;
+  }
+
+  .hero{
+    margin-top: 4rem;
+    padding: 0 1rem;  
+    min-width: 100%;
+  }
+
+  .glowing-button {
+    padding: 2rem 1rem;
+    line-height: 0;
+
+    /* width: 224rem; */
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero .paragraph {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .hero .join-us {
+    padding: 0.5rem 1rem;
+  }
+
+  .hero .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .mobile-hero-image{
+    display: block;
+    margin-top: 4rem;
+  }
+
+  .mobile-hero-image img {
+    width: 100%;
+  }
+
+  /* Our services */
+
+  .services{
+    margin-top: 4rem;
+    padding: 0 1rem;
+    max-width: 100%;
+  }
+
+  .services h3 {
+    font-size: 2.5rem;
+  }
+
+  .services p {
+    font-size: 1rem;
+  }
+
+  .service-card {
+    padding: 3rem 1rem;
+  }
+
+  /* why choose us */
+
+  .choose {
+    margin-top: 4rem;
+    padding: 0 1rem;
+    max-width: 100%;
+  }
+
+  .choose h1 {
+    font-size: 2.5rem;
+  }
+
+  
+  .choose .reason {
+    flex-direction: column;
+    /* gap: 1rem; */
+  }
+
+  .mobile-reason {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+
+  .reason .text {
+    width: 100%;
+  }
+
+  .reason .image {
+    width: 100%;
+  }
+
+  .reason .text p{
+    font-size: 1rem;
+  }
+
+  /* Portfolio */
+
+  .portfolio {
+    margin-top: 4rem;
+    padding: 0 1rem;
+    max-width: 100%;
+  }
+
+  .portfolio h2 {
+    font-size: 2.5rem;
+  }
+
+  .portfolio p {
+    font-size: 1rem;
+  }
+
+  .portfolio-images {
+    display: none;
+  }
+
+  .mobile-portfolio-images{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  /* FAQ SECTION */
+
+  .faq-section {
+    margin-top: 4rem;
+    padding: 0 1rem;
+    max-width: 100%;
+  }
+
+  .faq-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .faq-item {
+    padding: 1rem 0;
+    cursor: none;
+  }
+
+  .faq-question {
+    font-size: 1.2rem;
+  }
+
+  .faq-answer {
+    font-size: 1rem;
+  }
+
+  /* Touch logo */
+
+  .touch {
+    margin-top: 4rem;
+    padding: 0 1rem;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .touch img {
+    width: 100%;
+  }
+
+  .touch-text{
+    padding: 0 1rem;
+  }
+
+  .touch-text h1 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}

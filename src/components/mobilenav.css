@@ -1,0 +1,120 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    padding: 1rem;
+    /* border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    right: 0;
+    left: 0; */
+   
+  }
+  
+  
+  
+  
+  .nav-items {
+    list-style: none;
+    margin: 0;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    gap: 2rem;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    align-items: flex-start;
+    top: 5rem;
+    right: 0;
+    left: 0;
+    background-color:  #111111;
+    width: 100%;
+    height: 70vh;
+    border-radius: 8px;
+    z-index: 3;
+    opacity: 0; /* Initially hidden */
+    pointer-events: none; /* Disable pointer events when hidden */
+    transform: translateY(-20px); /* Slight upward movement for effect */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Transition for smooth effect */
+  
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); */
+  }
+  
+  
+  
+  .nav-items.open {
+    display: flex;
+    opacity: 1; /* Fully visible */
+    pointer-events: auto; /* Enable pointer events */
+    transform: translateY(0); /* Reset position */
+  
+  }
+  
+  .nav-items li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    color: #EEEEF0;
+    font-size: 1.25rem;
+   
+  }
+
+  .nav-items button {
+    text-decoration: none;
+    background-color: #1a4bff;
+    color: #ffffff;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 3.125rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 16.8rem;
+  }
+  
+  /* .nav-items a:hover {
+    color: #fff;
+  } */
+  
+
+  
+  
+  
+  
+  
+  
+  
+  @media (min-width: 900px) {
+    .navbar {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: none;
+    }
+  
+    .nav-items {
+      display: flex;
+      flex-direction: row;
+      position: static;
+      /* background-color: transparent; */
+      box-shadow: none;
+    }
+  
+    .nav-items li {
+      margin: 0 1rem;
+    }
+  
+    .nav-items a {
+      padding: 0;
+     
+    }
+  }
+  
