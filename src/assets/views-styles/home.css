@@ -116,6 +116,7 @@ hr {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-style: normal;
+  width: 14rem;
 }
 
 .glowing-button::before {
@@ -601,8 +602,8 @@ footer .legal a {
   }
 
   .glowing-button {
-    padding: 2rem 1rem;
-    line-height: 0;
+    padding: 0.8rem;
+    /* line-height: 1rem; */
 
     /* width: 224rem; */
   }
