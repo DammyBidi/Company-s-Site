@@ -1,6 +1,6 @@
 <template>
   <div id="Contact-us">
-    <MobileNav />
+    <MobileNav @menuState="handleMenuState" />
     <nav>
       <div class="logo">
         <img src="../assets/images/TTS Logo.svg" alt="" />
@@ -16,89 +16,106 @@
         <router-link to="/about">About Us</router-link>
         <router-link to="/blog">Blog</router-link>
       </div>
-      <router-link to="/contact-us"><button>Get in touch with us</button></router-link>
+      <router-link to="/contact-us"
+        ><button>Get in touch with us</button></router-link
+      >
     </nav>
     <hr />
 
-    <!-- Hero -->
-    <div class="hero">
-      <h1>Contact Us</h1>
-      <p>
-        We'd love to hear from you! Whether you have a question about our
-        services, want to collaborate on a project, or just want to say hello,
-        we're here to help. Reach out to us using the form below, and we'll get
-        back to you as soon as possible.
-      </p>
-    </div>
+    <div :class="{ 'blurred': isNavOpen }">
+      <!-- Hero -->
+      <div class="hero">
+        <h1>Contact Us</h1>
+        <p>
+          We'd love to hear from you! Whether you have a question about our
+          services, want to collaborate on a project, or just want to say hello,
+          we're here to help. Reach out to us using the form below, and we'll
+          get back to you as soon as possible.
+        </p>
+      </div>
 
-    <div class="contact-container">
-      <div class="text">
-        <h2>Get in touch with us</h2>
-        <div class="info-container">
-          <div>
-            <img src="../assets/images/callicon.svg" alt="" />
-            <p>+2349010825406</p>
+      <div class="contact-container">
+        <div class="text">
+          <h2>Get in touch with us</h2>
+          <div class="info-container">
+            <div>
+              <img src="../assets/images/callicon.svg" alt="" />
+              <p>+2349010825406</p>
+            </div>
+            <div>
+              <img src="../assets/images/emailicon.svg" alt="" />
+              <p>InfoTTS@gmail.com</p>
+            </div>
+            <div>
+              <img src="../assets/images/locationicon.svg" alt="" />
+              <p>
+                Trailblazing Technology Solutions, <br />
+                123 Main Street, Lagos, Nigeria
+              </p>
+            </div>
           </div>
-          <div>
-            <img src="../assets/images/emailicon.svg" alt="" />
-            <p>InfoTTS@gmail.com</p>
-          </div>
-          <div>
-            <img src="../assets/images/locationicon.svg" alt="" />
-            <p>
-              Trailblazing Technology Solutions, <br />
-              123 Main Street, Lagos, Nigeria
-            </p>
+          <div class="socials">
+            <p>Social Media</p>
+            <div class="socials-icons">
+              <img src="../assets/images/logo-twitter.svg" alt="" />
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=61563659004858&mibextid=ZbWKwL"><img src="../assets/images/logo-facebook.svg" alt="" /></a>
+              <a target="_blank" href="https://www.instagram.com/trailblazing_tech_solutions?igsh=MTgzN212Z2FtemRzbg=="><img src="../assets/images/logo-instagram.svg" alt="" /></a>
+              <a target="_blank" href="https://www.linkedin.com/company/trailblazing-technology-solutions"><img src="../assets/images/logo-linkedin.svg" alt="" /></a>
+
+              <a target="_blank" href="mailto:trailblazingtechsolutions@gmail.com"><img src="../assets/images/logo-email.svg" alt="" /></a>
+            </div>
           </div>
         </div>
-        <div class="socials">
-          <p>Social Media</p>
-          <div class="socials-icons">
-            <img src="../assets/images/logo-twitter.svg" alt="" />
-            <img src="../assets/images/logo-facebook.svg" alt="" />
-            <img src="../assets/images/logo-instagram.svg" alt="" />
-            <img src="../assets/images/logo-linkedin.svg" alt="" />
-            <img src="../assets/images/logo-email.svg" alt="" />
-          </div>
+        <div class="form">
+          <h2>Send us a message</h2>
+          <form action="">
+            <div class="input">
+              <label for="name">Name</label>
+              <input
+                placeholder="Fill in your full name"
+                type="text"
+                id="name"
+              />
+            </div>
+            <div class="input">
+              <label for="email">Email</label>
+              <input placeholder="abu@mail.com" type="email" id="email" />
+            </div>
+            <div class="input">
+              <label for="phonenumber">Phone Number</label>
+              <input placeholder="+234006677755" type="number" id="number" />
+            </div>
+            <div class="input">
+              <label for="message">Message</label>
+              <textarea
+                placeholder="Write your message here"
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div class="btn"><button>Send Message</button></div>
+          </form>
         </div>
       </div>
-      <div class="form">
-        <h2>Send us a message</h2>
-        <form action="">
-          <div class="input">
-            <label for="name">Name</label>
-            <input placeholder="Fill in your full name" type="text" id="name" />
-          </div>
-          <div class="input">
-            <label for="email">Email</label>
-            <input placeholder="abu@mail.com" type="email" id="email" />
-          </div>
-          <div class="input">
-            <label for="phonenumber">Phone Number</label>
-            <input placeholder="+234006677755" type="number" id="number" />
-          </div>
-          <div class="input">
-            <label for="message">Message</label>
-            <textarea
-              placeholder="Write your message here"
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"
-            ></textarea>
-          </div>
-          <div class="btn"><button>Send Message</button></div>
-        </form>
-      </div>
-    </div>
 
-    <FooterComponent />
+      <FooterComponent />
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { ref } from "vue";
 import MobileNav from "../components/MobileNav.vue";
 import FooterComponent from "../components/FooterComponent.vue";
+
+const isNavOpen = ref(false);
+
+const handleMenuState = (state: boolean) => {
+  console.log("Nav state received:", state);
+  isNavOpen.value = state;
+};
 </script>
 
 <style scoped>

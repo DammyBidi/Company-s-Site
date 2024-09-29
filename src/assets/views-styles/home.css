@@ -474,6 +474,9 @@ hr {
   width: 16.8rem;
 }
 
+
+
+
 /* Footer */
 
 /* footer {
@@ -594,6 +597,24 @@ footer .legal a {
   nav {
     display: none;
   }
+
+  .blurred {
+    filter: blur(6px);
+    pointer-events: none;
+    transition: filter 0.3s ease;
+  }
+
+  .home {
+    transition: filter 0.3s ease; 
+  }
+
+ 
+
+
+  
+ 
+
+  
 
   .hero{
     margin-top: 4rem;

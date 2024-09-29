@@ -191,6 +191,14 @@ hr {
     display: none;
   }
 
+  .blurred {
+    filter: blur(6px);
+    pointer-events: none;
+    transition: filter 0.3s ease;
+  }
+
+ 
+
   .hero {
     padding: 0 1rem;
     max-width: 100%;

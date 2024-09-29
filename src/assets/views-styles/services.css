@@ -178,7 +178,7 @@ hr {
     gap: 1rem;
   }
   
-  .contact .buttons :first-child {
+  .contact .buttons .btn1 {
     background-color: #1a4bff;
     color: #ffffff;
     padding: 0.875rem 0.75rem;
@@ -189,7 +189,7 @@ hr {
     width: 16.8rem;
   }
   
-  .contact .buttons :last-child {
+  .contact .buttons .btn2 {
     background-color: transparent;
     border: 1px solid #ffffff;
     color: #ffffff;
@@ -203,6 +203,12 @@ hr {
   @media screen and (max-width: 900px) {
     nav {
       display: none;
+    }
+
+    .blurred {
+      filter: blur(6px);
+      pointer-events: none;
+      transition: filter 0.3s ease;
     }
 
     .hero {

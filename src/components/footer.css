@@ -56,6 +56,12 @@ footer .socials {
   gap: 2rem;
 }
 
+footer .socials a {
+  /* color: #b2b3bd; */
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
 footer .right {
   display: flex;
   gap: 2.5rem;

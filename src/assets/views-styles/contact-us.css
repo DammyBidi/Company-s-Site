@@ -167,6 +167,13 @@ hr {
   align-items: center;
 }
 
+.socials-icons a {
+  /* color: #b2b3bd; */
+  font-size: 1.5rem;
+  width: 1.5rem;
+  text-decoration: none;
+}
+
 .socials-icons img {
   width: 1.5rem;
 }
@@ -234,6 +241,14 @@ form .btn button {
   nav {
     display: none;
   }
+
+  .blurred {
+    filter: blur(6px);
+    pointer-events: none;
+    transition: filter 0.3s ease;
+  }
+
+
 
   .hero {
     padding: 0 1rem;

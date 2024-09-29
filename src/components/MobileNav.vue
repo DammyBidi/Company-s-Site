@@ -37,13 +37,43 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, watch, onBeforeUnmount } from "vue";
+import { useRoute, useRouter } from 'vue-router';
 
 const menuOpen = ref(false);
+const router = useRouter();
+
+const emit = defineEmits(["menuState"]);
 
 const toggleMenu = () => {
   menuOpen.value = !menuOpen.value;
+  emit("menuState", menuOpen.value);
 };
+
+watch(menuOpen, (newVal) => {
+  if (newVal) {
+    document.body.style.overflow = "hidden"; // Prevent scrolling
+  } else {
+    document.body.style.overflow = ""; // Reset scrolling when menu is closed
+  }
+});
+
+router.beforeEach((to, from, next) => {
+  document.body.style.overflow = ""; // Reset overflow
+  next(); // Continue navigation
+});
+
+
+
+
+
+
+
+
+
+watch(menuOpen, (newState) => {
+  console.log("Menu state changed:", newState);
+});
 
 
 

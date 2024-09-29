@@ -1,6 +1,6 @@
 <template>
   <div id="blog">
-    <MobileNav />
+    <MobileNav @menuState="handleMenuState" />
     <nav>
       <div class="logo">
         <img src="../assets/images/TTS Logo.svg" alt="" />
@@ -22,63 +22,70 @@
     </nav>
     <hr />
 
-    <!-- Hero -->
-    <div class="hero">
-      <h1>Blog</h1>
-      <p>
-        Welcome to the Trailblazing Technology Solutions blog! Here, you'll find
-        the latest news, insights, and updates on all things tech. From industry
-        trends and best practices to tips and tricks for developers, our blog is
-        your go-to resource for staying informed and inspired.
-      </p>
-    </div>
+    <div :class="{ 'blurred': isNavOpen }">
+      <!-- Hero -->
+      <div class="hero">
+        <h1>Blog</h1>
+        <p>
+          Welcome to the Trailblazing Technology Solutions blog! Here, you'll
+          find the latest news, insights, and updates on all things tech. From
+          industry trends and best practices to tips and tricks for developers,
+          our blog is your go-to resource for staying informed and inspired.
+        </p>
+      </div>
 
-    <!-- Blog Posts -->
-    <div class="blog-container">
-      <h2>Recent blog post</h2>
-      <div class="blog-section">
-        <div class="top-section">
-          <div class="blog-post">
-            <div class="blog-image">
-              <img src="../assets/images/blog-image.svg" alt="blog-image" />
-            </div>
-            <div class="blog-text">
-              <h3>
-                How AI is Transforming User Experience: Enhancing
-                Personalization and Predictive Design"
-              </h3>
-              <p>
-                Explore how artificial intelligence is revolutionizing the field
-                of user experience design by enabling highly personalized
-                interfaces and predictive design elements.
-              </p>
-              <div class="author-details">
-                <img src="../assets/images/authorImg.svg" alt="">
-                <div class="author">
-                    <p>Lana Steve</p>
-                    <img src="../assets/images/Ellipse36.svg" alt="">
-                    <p>19 Jan 2022</p>
-                </div>
+      <!-- Blog Posts -->
+      <div class="blog-container">
+        <h2>Recent blog post</h2>
+        <div class="blog-section">
+          <div class="top-section">
+            <div class="blog-post">
+              <div class="blog-image">
+                <img src="../assets/images/blog-image.svg" alt="blog-image" />
               </div>
-              <!-- <router-link to="/blog-post">Read more</router-link> -->
+              <div class="blog-text">
+                <h3>
+                  How AI is Transforming User Experience: Enhancing
+                  Personalization and Predictive Design"
+                </h3>
+                <p>
+                  Explore how artificial intelligence is revolutionizing the
+                  field of user experience design by enabling highly
+                  personalized interfaces and predictive design elements.
+                </p>
+                <div class="author-details">
+                  <img src="../assets/images/authorImg.svg" alt="" />
+                  <div class="author">
+                    <p>Lana Steve</p>
+                    <img src="../assets/images/Ellipse36.svg" alt="" />
+                    <p>19 Jan 2022</p>
+                  </div>
+                </div>
+                <!-- <router-link to="/blog-post">Read more</router-link> -->
+              </div>
             </div>
           </div>
-        </div>
-        <div class="bottom-section">
-          <div class="blog-image"></div>
+          <div class="bottom-section">
+            <div class="blog-image"></div>
+          </div>
         </div>
       </div>
+      <FooterComponent />
     </div>
-    <FooterComponent />
-
-
   </div>
 </template>
 
 <script setup lang="ts">
+import { ref } from "vue";
 import MobileNav from "../components/MobileNav.vue";
-import FooterComponent from "../components/FooterComponent.vue";    
+import FooterComponent from "../components/FooterComponent.vue";
 
+const isNavOpen = ref(false);
+
+const handleMenuState = (state: boolean) => {
+  console.log("Nav state received:", state);
+  isNavOpen.value = state;
+};
 </script>
 
 <style scoped>
