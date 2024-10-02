@@ -1,28 +1,32 @@
 <template>
   <div id="services">
-    <MobileNav @menuState="handleMenuState" />
-    <nav>
-      <div class="logo">
-        <img src="../assets/images/TTS Logo.svg" alt="" />
-        <div>
-          <h3>Trailblazing</h3>
-          <p>TECHNOLOGY SOLUTIONS</p>
+    <div class="nav-container">
+      <MobileNav @menuState="handleMenuState" />
+      <nav>
+        <div class="logo">
+          <img src="../assets/images/TTS Logo.svg" alt="" />
+          <div>
+            <h3>Trailblazing</h3>
+            <p>TECHNOLOGY SOLUTIONS</p>
+          </div>
         </div>
-      </div>
-      <div class="nav-links">
-        <router-link to="/">Home</router-link>
-        <router-link to="/portfolio">Portfolio</router-link>
-        <router-link class="services-link" to="/services">Services</router-link>
-        <router-link to="/about">About Us</router-link>
-        <router-link to="/blog">Blog</router-link>
-      </div>
-      <router-link to="/contact-us"
-        ><button>Get in touch with us</button></router-link
-      >
-    </nav>
-    <hr />
+        <div class="nav-links">
+          <router-link to="/">Home</router-link>
+          <router-link to="/portfolio">Portfolio</router-link>
+          <router-link class="services-link" to="/services"
+            >Services</router-link
+          >
+          <router-link to="/about">About Us</router-link>
+          <router-link to="/blog">Blog</router-link>
+        </div>
+        <router-link to="/contact-us"
+          ><button>Get in touch with us</button></router-link
+        >
+      </nav>
+      <hr />
+    </div>
 
-    <div :class="{ 'blurred': isNavOpen }">
+    <div :class="{ blurred: isNavOpen }">
       <!-- hero -->
 
       <div class="hero">

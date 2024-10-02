@@ -1,28 +1,30 @@
 <template>
   <div id="Contact-us">
-    <MobileNav @menuState="handleMenuState" />
-    <nav>
-      <div class="logo">
-        <img src="../assets/images/TTS Logo.svg" alt="" />
-        <div>
-          <h3>Trailblazing</h3>
-          <p>TECHNOLOGY SOLUTIONS</p>
+    <div class="nav-container">
+      <MobileNav @menuState="handleMenuState" />
+      <nav>
+        <div class="logo">
+          <img src="../assets/images/TTS Logo.svg" alt="" />
+          <div>
+            <h3>Trailblazing</h3>
+            <p>TECHNOLOGY SOLUTIONS</p>
+          </div>
         </div>
-      </div>
-      <div class="nav-links">
-        <router-link to="/">Home</router-link>
-        <router-link to="/portfolio">Portfolio</router-link>
-        <router-link to="/services">Services</router-link>
-        <router-link to="/about">About Us</router-link>
-        <router-link to="/blog">Blog</router-link>
-      </div>
-      <router-link to="/contact-us"
-        ><button>Get in touch with us</button></router-link
-      >
-    </nav>
-    <hr />
+        <div class="nav-links">
+          <router-link to="/">Home</router-link>
+          <router-link to="/portfolio">Portfolio</router-link>
+          <router-link to="/services">Services</router-link>
+          <router-link to="/about">About Us</router-link>
+          <router-link to="/blog">Blog</router-link>
+        </div>
+        <router-link to="/contact-us"
+          ><button>Get in touch with us</button></router-link
+        >
+      </nav>
+      <hr />
+    </div>
 
-    <div :class="{ 'blurred': isNavOpen }">
+    <div :class="{ blurred: isNavOpen }">
       <!-- Hero -->
       <div class="hero">
         <h1>Contact Us</h1>
@@ -58,32 +60,62 @@
             <p>Social Media</p>
             <div class="socials-icons">
               <img src="../assets/images/logo-twitter.svg" alt="" />
-              <a target="_blank" href="https://www.facebook.com/profile.php?id=61563659004858&mibextid=ZbWKwL"><img src="../assets/images/logo-facebook.svg" alt="" /></a>
-              <a target="_blank" href="https://www.instagram.com/trailblazing_tech_solutions?igsh=MTgzN212Z2FtemRzbg=="><img src="../assets/images/logo-instagram.svg" alt="" /></a>
-              <a target="_blank" href="https://www.linkedin.com/company/trailblazing-technology-solutions"><img src="../assets/images/logo-linkedin.svg" alt="" /></a>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=61563659004858&mibextid=ZbWKwL"
+                ><img src="../assets/images/logo-facebook.svg" alt=""
+              /></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/trailblazing_tech_solutions?igsh=MTgzN212Z2FtemRzbg=="
+                ><img src="../assets/images/logo-instagram.svg" alt=""
+              /></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/trailblazing-technology-solutions"
+                ><img src="../assets/images/logo-linkedin.svg" alt=""
+              /></a>
 
-              <a target="_blank" href="mailto:trailblazingtechsolutions@gmail.com"><img src="../assets/images/logo-email.svg" alt="" /></a>
+              <a
+                target="_blank"
+                href="mailto:trailblazingtechsolutions@gmail.com"
+                ><img src="../assets/images/logo-email.svg" alt=""
+              /></a>
             </div>
           </div>
         </div>
         <div class="form">
           <h2>Send us a message</h2>
-          <form action="">
+          <form @submit.prevent="submitForm">
             <div class="input">
               <label for="name">Name</label>
               <input
                 placeholder="Fill in your full name"
                 type="text"
                 id="name"
+                v-model="name"
+                required
               />
             </div>
             <div class="input">
               <label for="email">Email</label>
-              <input placeholder="abu@mail.com" type="email" id="email" />
+              <input
+                placeholder="abu@mail.com"
+                type="email"
+                id="email"
+                v-model="email"
+                required
+              />
             </div>
             <div class="input">
               <label for="phonenumber">Phone Number</label>
-              <input placeholder="+234006677755" type="number" id="number" />
+              <input
+                placeholder="+234006677755"
+                type="number"
+                id="number"
+                v-model="phoneNumber"
+                required
+              />
             </div>
             <div class="input">
               <label for="message">Message</label>
@@ -93,9 +125,11 @@
                 id="message"
                 cols="30"
                 rows="10"
+                v-model="message"
+                required
               ></textarea>
             </div>
-            <div class="btn"><button>Send Message</button></div>
+            <div class="btn"><button type="submit">Send Message</button></div>
           </form>
         </div>
       </div>
@@ -111,10 +145,50 @@ import MobileNav from "../components/MobileNav.vue";
 import FooterComponent from "../components/FooterComponent.vue";
 
 const isNavOpen = ref(false);
+const name = ref("");
+const email = ref("");
+const phoneNumber = ref("");
+const message = ref("");
 
 const handleMenuState = (state: boolean) => {
   console.log("Nav state received:", state);
   isNavOpen.value = state;
+};
+
+const submitForm = async () => {
+  try {
+    const response = await fetch(
+      "https://trailblazing-backend-1.onrender.com/api/v1/contact-us",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: name.value,
+          email: email.value,
+          phoneNumber: phoneNumber.value,
+          message: message.value,
+        }),
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error("Failed to send message");
+    }
+
+    const data = await response.json();
+    console.log("Message sent successfully:", data);
+    alert("Your message has been sent successfully!");
+
+    name.value = "";
+    email.value = "";
+    phoneNumber.value = "";
+    message.value = "";
+  } catch (error) {
+    console.error("Error:", error);
+    alert("There was an error sending your message. Please try again.");
+  }
 };
 </script>
 

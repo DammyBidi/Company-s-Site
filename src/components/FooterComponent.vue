@@ -1,5 +1,5 @@
 <template>
-  <Footer>
+  <footer>
     <div class="footer-content">
       <div class="left">
         <div class="logo">
@@ -28,12 +28,12 @@
         </div>
         <div class="legal">
           <h4>Legal</h4>
-          <router-link to="/home">Privacy Policy</router-link>
-          <router-link to="/contact">Terms of Service</router-link>
+          <router-link to="">Privacy Policy</router-link>
+          <router-link to="">Terms of Service</router-link>
         </div>
       </div>
     </div>
-  </Footer>
+  </footer>
 </template>
 
 <script setup lang="ts">
