@@ -25,17 +25,17 @@ nav {
   /* border-bottom: 0.1px solid #b2b3bd; */
 }
 
-nav .logo {
+/* nav .logo {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-}
+} */
 
-nav .logo img {
+/* nav .logo img {
   width: 3.5rem;
-}
+} */
 
-nav .logo div {
+/* nav .logo div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -45,7 +45,6 @@ nav .logo div {
 nav .logo h3 {
   font-size: 1.5rem;
   color: #eeeef0;
-  /* line-height: 1; */
 }
 
 nav .logo p {
@@ -53,7 +52,7 @@ nav .logo p {
   color: #eeeef0;
   margin-left: 8px;
   line-height: 0;
-}
+} */
 
 .nav-links {
   display: flex;
@@ -110,7 +109,7 @@ hr {
   padding: 0 2rem;
   max-width: 1440px;
   margin: 0 auto;
-  margin-top: 16rem;
+  margin-top: 14rem;
 }
 
 .glowing-button {
@@ -150,14 +149,14 @@ hr {
 }
 
 .hero h1 {
-  font-size: 4.6rem;
+  font-size: 4.75rem;
   color: #eeeef0;
   line-height: 6.8rem;
 
 }
 
 .hero .paragraph {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   color: #b2b3bd;
   width: 65rem;
 }
@@ -239,7 +238,7 @@ hr {
 }
 
 .services p {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   color: #b2b3bd;
 }
 
@@ -329,8 +328,8 @@ hr {
 }
 
 .reason .text p {
-  font-size: 1.25rem;
-  color: #ffffff;
+  font-size: 1.125rem;
+  color: #DCDDE3;
 }
 
 /* Portfolio */
@@ -351,7 +350,7 @@ hr {
 }
 
 .portfolio p {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   color: #b2b3bd;
 }
 
@@ -431,7 +430,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   font-family: "Manrope", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   font-style: normal;
   color: #eeeef0;
@@ -439,7 +438,7 @@ hr {
 
 .faq-answer {
   margin-top: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   color: #b2b3bd;
   font-family: "Manrope", sans-serif;
   font-weight: 400;
@@ -461,6 +460,7 @@ hr {
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 8rem;
+  margin-bottom: 1.5rem;
 }
 
 

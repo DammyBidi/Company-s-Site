@@ -24,7 +24,7 @@ nav {
   margin: 0 auto;
 }
 
-nav .logo {
+/* nav .logo {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -44,7 +44,7 @@ nav .logo div {
 nav .logo h3 {
   font-size: 1.5rem;
   color: #eeeef0;
-  /* line-height: 1; */
+
 }
 
 nav .logo p {
@@ -52,7 +52,7 @@ nav .logo p {
   color: #eeeef0;
   margin-left: 8px;
   line-height: 0;
-}
+} */
 
 .nav-links {
   display: flex;
@@ -113,7 +113,7 @@ hr {
 }
 
 .hero p {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   color: #b2b3bd;
   text-align: center;
   width: 90%;

@@ -3,11 +3,12 @@
     <div class="footer-content">
       <div class="left">
         <div class="logo">
-          <img src="../assets/images/TTS Logo.svg" alt="" />
+          <router-link  to="/"><img src="../assets/images/TTS Logo-06.svg" alt=""></router-link>  
+          <!-- <img src="../assets/images/TTS Logo.svg" alt="" />
           <div>
             <h3>Trailblazing</h3>
             <p>TECHNOLOGY SOLUTIONS</p>
-          </div>
+          </div> -->
         </div>
         <div class="socials">
           <img src="../assets/images/logo-twitter.svg" alt="" />

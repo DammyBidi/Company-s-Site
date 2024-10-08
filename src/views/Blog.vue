@@ -4,11 +4,12 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <img src="../assets/images/TTS Logo.svg" alt="" />
+          <router-link  to="/"><img src="../assets/images/navlogo.svg" alt=""></router-link>
+          <!-- <img src="../assets/images/TTS Logo.svg" alt="" />
           <div>
             <h3>Trailblazing</h3>
             <p>TECHNOLOGY SOLUTIONS</p>
-          </div>
+          </div> -->
         </div>
         <div class="nav-links">
           <router-link to="/">Home</router-link>
