@@ -4,7 +4,9 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link  to="/"><img src="../assets/images/navlogo.svg" alt=""></router-link>
+          <router-link to="/"
+            ><img src="../assets/images/navlogo.svg" alt=""
+          /></router-link>
           <!-- <img src="../assets/images/TTS Logo.svg" alt="" />
           <div>
             <h3>Trailblazing</h3>
@@ -28,13 +30,16 @@
     <div :class="{ blurred: isNavOpen }">
       <div class="hero">
         <p class="glowing-button">Welcome to trailblazing</p>
-        <h1>Engineering Excellence,<br />Fueling Innovation.</h1>
+        <h1>
+          Defining Excellence,<br />
+          Innovating Tomorrow
+        </h1>
         <p class="paragraph">
-          At Trailblazing, we push the boundaries of technology, crafting
-          tailored software solutions that drive your business forward. Our team
-          of experts harnesses cutting-edge technologies and innovative thinking
-          to deliver exceptional, user-focused experiences. Let's create
-          something extraordinary together
+          At Trailblazing, we push the limits of technology, creating custom
+          software solutions that propel your business forward. Our expert team
+          leverages cutting-edge technologies and innovative thinking to deliver
+          exceptional, user-focused experiences. Let's build something
+          extraordinary together.
         </p>
         <div class="join-us">
           <img src="../assets/images/buttonimg.svg" alt="" />
@@ -52,7 +57,7 @@
 
       <div class="hero-image">
         <!-- <img src="../assets/images/hero.webp" alt="" /> -->
-        <img src="../assets/images/hero.svg" alt="">
+        <img src="../assets/images/hero.svg" alt="" />
       </div>
 
       <div class="mobile-hero-image">
@@ -64,12 +69,12 @@
       <div class="services">
         <h3>Our Services</h3>
         <p>
-          At Trailblazing, we offer a comprehensive suite of services designed
-          to empower your business in the digital age. Whether you need a
-          responsive website, a seamless user experience, or cutting-edge AI
-          solutions, our expert team is dedicated to delivering results that
-          drive success and innovation. We partner with you every step of the
-          way to turn your ideas into impactful digital solutions
+          At Trailblazing Technology Solutions, we offer a full spectrum of
+          software development services designed to meet the unique needs of
+          businesses across various industries. From conceptualization to
+          deployment and beyond, our team is dedicated to delivering solutions
+          that enhance operational efficiency, drive innovation, and support
+          business growth.
         </p>
         <div class="service-cards">
           <div class="service-card">
@@ -78,23 +83,24 @@
               <h4>Web Development</h4>
             </div>
             <p>
-              Build robust, scalable, and secure websites that deliver
-              exceptional performance and seamless user experiences. Our web
-              development team combines the latest technologies with industry
-              best practices to create digital solutions that grow with your
-              business
+              We develop dynamic, responsive, and visually appealing websites
+              that align with your brand and business objectives. Our expertise
+              covers everything from simple corporate websites to complex web
+              applications, ensuring high performance, security, and an
+              exceptional user experience.
             </p>
           </div>
           <div class="service-card">
             <div>
               <img src="../assets/images/mobile-dev.svg" alt="" />
-              <h4>Mobile app development</h4>
+              <h4>Mobile App Development</h4>
             </div>
             <p>
-              Design experiences that resonate with your users. Our UI/UX design
-              services focus on creating interfaces that are not only visually
-              stunning but also intuitive and user-friendly. We ensure that
-              every interaction with your brand is meaningful and impactful.
+              Our team creates intuitive, user-friendly mobile apps for both iOS
+              and Android platforms. From consumer-facing apps to enterprise
+              mobile solutions, we design and develop mobile applications that
+              offer seamless user experiences, high performance, and
+              scalability.
             </p>
           </div>
           <div class="service-card">
@@ -102,13 +108,12 @@
               <img src="../assets/images/consulting.svg" alt="" />
               <h4>Consulting</h4>
             </div>
-
             <p>
-              Harness the power of artificial intelligence to drive innovation
-              and efficiency. From machine learning models to AI-powered
-              applications, our solutions are tailored to meet your specific
-              needs, enabling you to stay ahead in a rapidly evolving digital
-              landscape
+              Our consultation services are designed to provide you with expert
+              guidance throughout the entire software development lifecycle—from
+              initial planning to post-launch optimization. We help you make
+              informed decisions, streamline your processes, and ensure that
+              your software investments drive real results.
             </p>
           </div>
         </div>
@@ -126,11 +131,15 @@
             <div class="text">
               <h3>Excellence</h3>
               <p>
-                We combine years of experience with cutting-edge technology to
-                deliver solutions that are not just functional but
-                transformative. Our team stays ahead of the curve, integrating
-                the latest trends in web development, UI/UX design, and AI to
-                ensure that your business is always a step ahead
+                Our commitment to excellence drives everything we do. From the
+                moment we engage with you, our focus is on delivering
+                high-quality, innovative solutions that not only meet but exceed
+                your expectations. With years of experience and a team of highly
+                skilled developers, designers, and project managers, we follow
+                industry best practices and cutting-edge technologies to ensure
+                that your software is reliable, scalable, and future-proof. We
+                don't just build software; we craft solutions that empower your
+                business to grow and thrive in the digital age.
               </p>
             </div>
           </div>
@@ -138,11 +147,16 @@
             <div class="text">
               <h3>Customer-Centric Approach</h3>
               <p>
-                Your success is our mission. We prioritize understanding your
-                unique needs and tailor our services to meet them. From the
-                initial consultation to the final delivery, we work closely with
-                you to ensure that the end product not only meets but exceeds
-                your expectations
+                You are at the center of everything we do. We take the time to
+                understand your business, industry, and unique challenges so
+                that we can develop tailored solutions that align with your
+                goals. Your feedback is invaluable throughout the entire project
+                lifecycle, and we pride ourselves on maintaining open
+                communication, transparency, and flexibility. We are not just
+                delivering a product—we are solving your problems, enhancing
+                your processes, and supporting your vision. Your success is our
+                success, and we're dedicated to ensuring that your experience
+                with us is smooth, productive, and positive.
               </p>
             </div>
             <div class="image">
@@ -156,11 +170,18 @@
             <div class="text">
               <h3>Collaboration</h3>
               <p>
-                We have a history of delivering high-quality, reliable solutions
-                across various industries. Our portfolio speaks for
-                itself—successful projects that have helped businesses enhance
-                their digital presence, improve user engagement, and drive
-                growth
+                Great software is built through collaboration, and we believe
+                that working closely with our clients is key to achieving
+                outstanding results. From day one, we foster a partnership
+                mindset, where your insights, ideas, and feedback are integral
+                to the development process. We embrace agile methodologies,
+                allowing us to adapt and refine solutions based on your evolving
+                needs. We see ourselves as an extension of your team, working
+                hand-in-hand with you to ensure that every detail is perfected,
+                every goal is met, and every challenge is overcome. By
+                collaborating closely, we can ensure that the final product is
+                not only aligned with your vision but is delivered on time and
+                within budget.
               </p>
             </div>
           </div>
@@ -274,29 +295,54 @@ interface Faq {
 
 const faqs = ref<Faq[]>([
   {
-    question: "What types of projects does your company specialize in?",
+    question: "What services do you offer?",
     answer:
-      "We offer a comprehensive suite of services, including web development, mobile app development, UI/UX design, and AI consulting. Our team of experts is dedicated to delivering solutions that drive success and innovation for your business",
+      "We offer a wide range of software development services, including custom software development, mobile app development, web development, UI/UX design, cloud solutions, quality assurance, maintenance, and support. We also provide consultation services to help you define your technology strategy and optimize your business processes.",
   },
   {
-    question: "How do you ensure the quality of your projects?",
+    question: "What industries do you specialize in?",
     answer:
-      "Our CEO who is a QA Engr will hit the application on concrete floor plenty number of times to ensure its durability",
+      "We work with clients across various industries, including healthcare, finance, e-commerce, education, logistics, and more. Our team has experience delivering industry-specific solutions tailored to meet the unique needs and challenges of businesses in different sectors.",
   },
   {
-    question: "What is your approach to customer collaboration?",
+    question: "How long does it take to complete a project?",
     answer:
-      "We have Barister Ridwan in our team, so if dont collaborate well. You will go to jail",
+      "The timeline for each project varies depending on its scope and complexity. After an initial consultation and understanding of your requirements, we provide an estimated timeline and work closely with you to ensure timely delivery. Throughout the project, we keep you informed of progress and adjust timelines as needed to ensure quality outcomes.",
   },
   {
-    question: "Can you tailor your services to meet specific business needs?",
+    question: "What is your development process like?",
     answer:
-      "Yes, we can tailor our services. Just make sure you have the money to buy 10yards of material",
+      "We follow an agile development process, which emphasizes iterative progress, regular feedback, and flexibility. Our typical process includes requirement gathering, design, development, testing, and deployment, followed by ongoing support. We work closely with you at every stage to ensure that the final product meets your needs and expectations",
   },
   {
-    question: "What technologies and tools do you use in your projects?",
+    question: "Do you provide ongoing support after the project is completed?",
     answer:
-      "We use the latest technologies such as spanners, hammers, nails, saw and screwdrivers",
+      "Yes, we offer maintenance and support services after project completion to ensure your software continues to perform optimally. This includes bug fixes, updates, security patches, and performance monitoring to keep your system up-to-date and running smoothly.",
+  },
+  {
+    question: "Can you help modernize our legacy systems?",
+    answer:
+      "Absolutely! We provide legacy system modernization services to help you upgrade outdated technology and integrate it with modern solutions. This can improve your system's performance, security, and scalability, ensuring it meets today's technological standards.",
+  },
+  {
+    question: "How much does custom software development cost?",
+    answer:
+      "The cost of a custom software solution depends on the scope, complexity, and specific requirements of the project. After understanding your needs, we provide a detailed proposal with cost estimates. Our pricing is transparent, and we work within your budget to deliver the best solution for your business.",
+  },
+  {
+    question: "Do you offer consultation services before starting a project?",
+    answer:
+      "Yes, we offer comprehensive consultation services to help you define your project requirements, choose the right technology stack, and create a detailed roadmap. Whether you're in the early planning stages or need advice on scaling an existing project, our experts provide valuable insights to ensure a successful software development journey.",
+  },
+  {
+    question: "How do you ensure the quality of the software you develop?",
+    answer:
+      "Quality is a top priority for us. We have a dedicated quality assurance (QA) team that conducts thorough testing at every stage of development. This includes functional testing, performance testing, security testing, and user acceptance testing to ensure the final product is reliable, secure, and user-friendly.",
+  },
+  {
+    question: "How do we get started with a project?",
+    answer:
+      "Getting started is simple! Reach out to us through our contact form or schedule a consultation. We'll set up a meeting to understand your project goals, requirements, and timeline. From there, we’ll provide a proposal and roadmap to bring your vision to life.",
   },
 ]);
 

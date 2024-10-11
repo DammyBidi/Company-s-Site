@@ -4,7 +4,9 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link  to="/"><img src="../assets/images/navlogo.svg" alt=""></router-link>
+          <router-link to="/"
+            ><img src="../assets/images/navlogo.svg" alt=""
+          /></router-link>
           <!-- <img src="../assets/images/TTS Logo.svg" alt="" />
           <div>
             <h3>Trailblazing</h3>
@@ -32,11 +34,15 @@
       <div class="hero">
         <h1>Portfolio</h1>
         <p>
-          Explore our portfolio to see how we've helped businesses achieve their
-          digital goals. From web development and UI/UX design to AI solutions,
-          our work showcases the creativity and precision we bring to every
-          project. Discover how we turn ideas into impactful digital
-          experiences.
+          Our portfolio showcases various projects across various industries,
+          demonstrating our commitment to quality, innovation, and excellence.
+          Each project is a testament to our ability to understand our client's
+          unique challenges and deliver solutions that drive growth, efficiency,
+          and success. Explore how we have helped businesses streamline
+          operations, enhance user experiences, and achieve digital
+          transformation goals. Each project represents a journey of
+          collaboration, innovation, and success, and we are excited to continue
+          creating solutions that make a real impact.
         </p>
       </div>
 

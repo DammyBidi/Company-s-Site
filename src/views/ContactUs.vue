@@ -43,11 +43,11 @@
           <div class="info-container">
             <div>
               <img src="../assets/images/callicon.svg" alt="" />
-              <p>+2349010825406</p>
+              <p>+2348059381638</p>
             </div>
             <div>
               <img src="../assets/images/emailicon.svg" alt="" />
-              <p>InfoTTS@gmail.com</p>
+              <p>trailblazingtechsolutions@gmail.com</p>
             </div>
             <div>
               <img src="../assets/images/locationicon.svg" alt="" />

@@ -4,7 +4,9 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link  to="/"><img src="../assets/images/navlogo.svg" alt=""></router-link>
+          <router-link to="/"
+            ><img src="../assets/images/navlogo.svg" alt=""
+          /></router-link>
           <!-- <img src="../assets/images/TTS Logo.svg" alt="" />
           <div>
             <h3>Trailblazing</h3>
@@ -33,8 +35,8 @@
           Trailblazing Technology Solutions is a forward-thinking software
           development company on a mission to redefine innovation in the tech
           world. With a relentless pursuit of excellence, dynamic creativity,
-          and a deep commitment to customer-centric innovation, we're not just
-          problem-solvers; we're trailblazers.
+          and a deep commitment to customer-centric innovation, we are not just
+          problem-solvers but trailblazers.
         </p>
       </div>
 
@@ -67,11 +69,15 @@
             <div class="text">
               <h3>Excellence</h3>
               <p>
-                We combine years of experience with cutting-edge technology to
-                deliver solutions that are not just functional but
-                transformative. Our team stays ahead of the curve, integrating
-                the latest trends in web development, UI/UX design, and AI to
-                ensure that your business is always a step ahead
+                Our commitment to excellence drives everything we do. From the
+                moment we engage with you, our focus is on delivering
+                high-quality, innovative solutions that not only meet but exceed
+                your expectations. With years of experience and a team of highly
+                skilled developers, designers, and project managers, we follow
+                industry best practices and cutting-edge technologies to ensure
+                that your software is reliable, scalable, and future-proof. We
+                don't just build software; we craft solutions that empower your
+                business to grow and thrive in the digital age.
               </p>
             </div>
           </div>
@@ -79,11 +85,16 @@
             <div class="text">
               <h3>Customer-Centric Approach</h3>
               <p>
-                Your success is our mission. We prioritize understanding your
-                unique needs and tailor our services to meet them. From the
-                initial consultation to the final delivery, we work closely with
-                you to ensure that the end product not only meets but exceeds
-                your expectations
+                You are at the center of everything we do. We take the time to
+                understand your business, industry, and unique challenges so
+                that we can develop tailored solutions that align with your
+                goals. Your feedback is invaluable throughout the entire project
+                lifecycle, and we pride ourselves on maintaining open
+                communication, transparency, and flexibility. We are not just
+                delivering a product—we are solving your problems, enhancing
+                your processes, and supporting your vision. Your success is our
+                success, and we're dedicated to ensuring that your experience
+                with us is smooth, productive, and positive.
               </p>
             </div>
             <div class="image">
@@ -97,11 +108,18 @@
             <div class="text">
               <h3>Collaboration</h3>
               <p>
-                We have a history of delivering high-quality, reliable solutions
-                across various industries. Our portfolio speaks for
-                itself—successful projects that have helped businesses enhance
-                their digital presence, improve user engagement, and drive
-                growth
+                Great software is built through collaboration, and we believe
+                that working closely with our clients is key to achieving
+                outstanding results. From day one, we foster a partnership
+                mindset, where your insights, ideas, and feedback are integral
+                to the development process. We embrace agile methodologies,
+                allowing us to adapt and refine solutions based on your evolving
+                needs. We see ourselves as an extension of your team, working
+                hand-in-hand with you to ensure that every detail is perfected,
+                every goal is met, and every challenge is overcome. By
+                collaborating closely, we can ensure that the final product is
+                not only aligned with your vision but is delivered on time and
+                within budget.
               </p>
             </div>
           </div>

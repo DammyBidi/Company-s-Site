@@ -407,7 +407,7 @@ hr {
 .faq-section {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 0 3rem;
   max-width: 1440px;
   margin: 0 auto;

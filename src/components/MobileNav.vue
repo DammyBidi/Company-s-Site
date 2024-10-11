@@ -66,11 +66,6 @@ router.beforeEach((to, from, next) => {
 
 
 
-
-
-
-
-
 watch(menuOpen, (newState) => {
   console.log("Menu state changed:", newState);
 });
