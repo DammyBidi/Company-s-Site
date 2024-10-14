@@ -49,13 +49,13 @@
               <img src="../assets/images/emailicon.svg" alt="" />
               <p>trailblazingtechsolutions@gmail.com</p>
             </div>
-            <div>
+            <!-- <div>
               <img src="../assets/images/locationicon.svg" alt="" />
               <p>
                 Trailblazing Technology Solutions, <br />
                 123 Main Street, Lagos, Nigeria
               </p>
-            </div>
+            </div> -->
           </div>
           <div class="socials">
             <p>Social Media</p>

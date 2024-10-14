@@ -4,7 +4,9 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link  to="/"><img src="../assets/images/navlogo.svg" alt=""></router-link>
+          <router-link to="/"
+            ><img src="../assets/images/navlogo.svg" alt=""
+          /></router-link>
           <!-- <img src="../assets/images/TTS Logo.svg" alt="" />
           <div>
             <h3>Trailblazing</h3>
@@ -33,11 +35,12 @@
       <div class="hero">
         <h1>Our Services</h1>
         <p>
-          At Trailblazing Technology Solutions, we provide cutting-edge
-          technology solutions designed to empower your business and drive
-          success. Our expert team is dedicated to delivering customized
-          services that address your unique challenges, ensuring that your
-          operations are more efficient, secure, and scalable.
+          At Trailblazing Technology Solutions, we offer a full spectrum of
+          software development services designed to meet the unique needs of
+          businesses across various industries. From conceptualization to
+          deployment and beyond, our team is dedicated to delivering solutions
+          that enhance operational efficiency, drive innovation, and support
+          business growth.
         </p>
       </div>
 
@@ -52,10 +55,11 @@
             <div class="text">
               <h3>Web development</h3>
               <p>
-                We create responsive, user-friendly websites that not only look
-                great but also perform exceptionally well. From custom designs
-                to complex web applications, our web development services are
-                tailored to your unique business needs.
+                We develop dynamic, responsive, and visually appealing websites
+                that align with your brand and business objectives. Our
+                expertise covers everything from simple corporate websites to
+                complex web applications, ensuring high performance, security,
+                and an exceptional user experience.
               </p>
             </div>
           </div>
@@ -63,10 +67,11 @@
             <div class="text">
               <h3>Mobile app development</h3>
               <p>
-                Our mobile app development team specializes in creating
-                seamless, intuitive apps for both iOS and Android platforms.
-                Whether you need a customer-facing app or an internal tool, we
-                ensure a smooth and engaging user experience.
+                Our team creates intuitive, user-friendly mobile apps for both
+                iOS and Android platforms. From consumer-facing apps to
+                enterprise mobile solutions, we design and develop mobile
+                applications that offer seamless user experiences, high
+                performance, and scalability.
               </p>
             </div>
             <div class="image">
@@ -83,11 +88,11 @@
             <div class="text">
               <h3>Consulting</h3>
               <p>
-                Leverage our expertise to make informed technology decisions
-                that align with your business goals. Our consulting services
-                include IT strategy, digital transformation, and process
-                optimization, helping you navigate the complexities of the tech
-                landscape.
+                Our consultation services are designed to provide you with
+                expert guidance throughout the entire software development
+                lifecycle—from initial planning to post-launch optimization. We
+                help you make informed decisions, streamline your processes, and
+                ensure that your software investments drive real results.
               </p>
             </div>
           </div>
