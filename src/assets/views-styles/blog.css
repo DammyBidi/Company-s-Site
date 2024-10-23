@@ -109,6 +109,7 @@ hr {
 .hero h1 {
   font-size: 3.813rem;
   color: #ffffff;
+  display: none;
 }
 
 .hero p {
@@ -217,6 +218,7 @@ hr {
 
   .hero h1 {
     font-size: 2.5rem;
+    display: block;
   }
 
   .hero p {

@@ -89,7 +89,7 @@
           <h2>Send us a message</h2>
           <form @submit.prevent="submitForm">
             <div class="input">
-              <label for="name">Name</label>
+              <label for="name">Full Name</label>
               <input
                 placeholder="Fill in your full name"
                 type="text"

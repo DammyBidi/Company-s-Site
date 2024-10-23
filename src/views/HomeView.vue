@@ -60,8 +60,12 @@
         <img src="../assets/images/hero.svg" alt="" />
       </div>
 
-      <div class="mobile-hero-image">
-        <img src="../assets/images/mobile-hero-image.svg" alt="" />
+      <div class="mobile-hero-image"  ref="HeroImageContainer">
+        <img src="../assets/images/mobile-hero-image1.svg" alt="" />
+        <img src="../assets/images/mobile-hero-image2.svg" alt="" />
+        <img src="../assets/images/mobile-hero-image3.svg" alt="" />
+        <img src="../assets/images/mobile-hero-image4.svg" alt="" />
+        <img src="../assets/images/mobile-hero-image5.svg" alt="" />
       </div>
 
       <!-- Our services -->
@@ -277,9 +281,40 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import MobileNav from "../components/MobileNav.vue";
 import FooterComponent from "../components/FooterComponent.vue";
+
+const HeroImageContainer = ref<HTMLElement | null>(null);
+
+const startContinuousScrolling = (
+  container: HTMLElement,
+  direction: "left" 
+) => {
+  const scrollSpeed = 2;
+
+  const content = container.innerHTML;
+  container.innerHTML += content;
+
+  const scroll = () => {
+    if (direction === "left") {
+      container.scrollLeft += scrollSpeed;
+      if (container.scrollLeft >= container.scrollWidth / 2) {
+        container.scrollLeft = 0;
+      }
+    }
+
+    requestAnimationFrame(scroll);
+  };
+
+  scroll();
+};
+
+onMounted(() => {
+  if (HeroImageContainer.value) {
+    startContinuousScrolling(HeroImageContainer.value, "left");
+  }
+});
 
 const isNavOpen = ref(false);
 

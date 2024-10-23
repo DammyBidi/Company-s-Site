@@ -137,8 +137,11 @@
           our team collaborates closely to turn your ideas into reality. We're
           not just problem solvers—we're partners in your success
         </p>
-        <div>
-          <p>Designers still working on team members section</p>
+        <div class="team-members">
+          <img src="../assets/images/TeamImage1.svg" alt="" />
+          <img src="../assets/images/TeamImage2.svg" alt="" />
+          <img src="../assets/images/TeamImage3.svg" alt="" />
+          <img src="../assets/images/TeamImage4.svg" alt="" />
         </div>
       </div>
 
