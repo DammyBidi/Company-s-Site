@@ -143,6 +143,15 @@
           <img src="../assets/images/TeamImage3.svg" alt="" />
           <img src="../assets/images/TeamImage4.svg" alt="" />
         </div>
+        <div class="mobile-team-section">
+          <div class="icons">
+            <img src="../assets/images/left-icon.svg" alt="left" @click="showPreviousImage">
+            <img src="../assets/images/right-icon.svg" alt="right" @click="showNextImage">
+          </div>
+          <div class="mobile-team-members">
+            <img :src="mobileTeamMembers[currentImageIndex]" alt="Team Member" />
+          </div>
+        </div>
       </div>
 
       <!-- Contact -->
@@ -173,6 +182,26 @@ const isNavOpen = ref(false);
 const handleMenuState = (state: boolean) => {
   console.log("Nav state received:", state);
   isNavOpen.value = state;
+};
+
+import member1 from "@/assets/images/mobile-team-member1.svg";
+import member2 from "@/assets/images/mobile-team-member2.svg";
+import member3 from "@/assets/images/mobile-team-member3.svg";
+import member4 from "@/assets/images/mobile-team-member4.svg";
+
+const mobileTeamMembers = [member1, member2, member3, member4];
+
+// Reactive variable to keep track of the current image index
+const currentImageIndex = ref(0);
+
+// Method to go to the previous image
+const showPreviousImage = () => {
+  currentImageIndex.value = (currentImageIndex.value - 1 + mobileTeamMembers.length) % mobileTeamMembers.length;
+};
+
+// Method to go to the next image
+const showNextImage = () => {
+  currentImageIndex.value = (currentImageIndex.value + 1) % mobileTeamMembers.length;
 };
 </script>
 

@@ -1,7 +1,10 @@
 <template>
   <div class="navbar">
     <div class="logo">
-      <img src="../assets/images/mobilenavlogo.svg" alt="">
+      <router-link to="/"
+        ><img src="../assets/images/mobilenavlogo.svg" alt="" />
+      </router-link>
+      <!-- <img src="../assets/images/mobilenavlogo.svg" alt="" /> -->
     </div>
     <div class="menu-icon" @click="toggleMenu">
       <img
@@ -31,14 +34,16 @@
       <li>
         <router-link to="/blog">Blog</router-link>
       </li>
-      <router-link to="/contact-us"><button>Get in touch with us</button></router-link>
+      <router-link to="/contact-us"
+        ><button>Get in touch with us</button></router-link
+      >
     </ul>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, watch, onBeforeUnmount } from "vue";
-import { useRoute, useRouter } from 'vue-router';
+import { useRoute, useRouter } from "vue-router";
 
 const menuOpen = ref(false);
 const router = useRouter();
@@ -63,18 +68,11 @@ router.beforeEach((to, from, next) => {
   next(); // Continue navigation
 });
 
-
-
-
 watch(menuOpen, (newState) => {
   console.log("Menu state changed:", newState);
 });
-
-
-
 </script>
 
 <style scoped>
 @import "../components/mobilenav.css";
-
 </style>

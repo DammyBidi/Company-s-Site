@@ -4,6 +4,8 @@ import Services from '../views/Services.vue'
 import ContactUs from '../views/ContactUs.vue'
 import Portfolio from '../views/Portfolio.vue'
 import Blog from '../views/Blog.vue'
+import PrivacyPolicy from '../views/PrivacyPolicy.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +34,12 @@ const router = createRouter({
       path: '/blog',
       name: 'blog',
       component: Blog
+    },
+    {
+      path: '/privacy-policy',
+      name: 'privacy-policy',
+      component: PrivacyPolicy
+
     },
     {
       path: '/about',

@@ -244,21 +244,30 @@ hr {
 .team .team-members {
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
   width: 100%;
-  height: 100%;
+  height: 602px;
+  gap: 2rem;
+
 }
 
-/* .team-members img{
-  width: 80%;
+.team-members img {
+  width: 20%;
   height: 100%;
   object-fit: cover;
   cursor: pointer;
   transition: all ease-in-out 0.5s;
-} */
+  border-radius: 1rem;
+}
 
-/* .team-members img:hover{
-  width: 100%;
-} */
+.team-members img:hover{
+  width: 50%;
+}
+
+.mobile-team-section {
+  display: none;
+}
 
 
 
@@ -401,6 +410,29 @@ hr {
 
   .team .team-members {
     display: none;
+  }
+
+  .mobile-team-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .mobile-team-section .icons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+  }
+
+  .mobile-team-members {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .mobile-team-members img {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
   }
 
   /* contact */

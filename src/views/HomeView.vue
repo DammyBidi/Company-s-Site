@@ -124,7 +124,6 @@
       </div>
 
       <!-- Why Choose Us-->
-
       <div class="choose">
         <h1>Why choose us</h1>
         <div class="reasons">
