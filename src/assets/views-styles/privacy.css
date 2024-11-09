@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #111111;
+  backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease;
+}
+
+nav {
+  padding: 1.5rem 3rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.privacy-policy-container {
+  display: flex;
+  color: #ffffff;
+  background-color: #111111;
+  max-width: 1440px;
+  margin: 8rem auto 3rem;
+  padding: 0 3rem;
+}
+
+
+.sidebar {
+  width: 350px;
+  /* padding: 20px; */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.sidebar a {
+  color: #dcdde3;
+
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  /* text-decoration: underline;
+  text-decoration-color: #1A4BFF; */
+  border-bottom: 1px solid #1a4bff;
+  padding-bottom: 8px;
+}
+
+.content {
+  flex: 1;
+  gap: 2.62rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.content h3 {
+  color: #dcdde3;
+  font-size: 0.875rem;
+}
+
+.content h1 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.content h2, p, li {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.content p {
+  line-height: normal;
+}
+
+.content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-left: 4rem;
+  font-family: 'Manrope', sans-serif;
+}
+
+#introduction,
+#information,
+#usage,
+#sharing,
+#security,
+#rights,
+#third-Party,
+#changes-to-this-privacy-policy,
+#contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+    .blurred {
+        filter: blur(6px);
+        pointer-events: none;
+        transition: filter 0.3s ease;
+    }
+
+    .privacy-policy-container {
+        padding: 0 1rem;
+        margin: 6rem auto 3rem;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+   .content h1 {
+    font-size: 1rem;
+   }
+
+   .content h2 {
+    font-size: 1.125rem;
+   }
+
+   .content p, li {
+    font-size: 0.875rem;
+   }
+
+    .content ul {
+     margin-left: 2rem;
+    }
+
+
+
+
+}

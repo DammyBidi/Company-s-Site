@@ -5,6 +5,7 @@ import ContactUs from '../views/ContactUs.vue'
 import Portfolio from '../views/Portfolio.vue'
 import Blog from '../views/Blog.vue'
 import PrivacyPolicy from '../views/PrivacyPolicy.vue'
+import TermsService from '../views/TermsService.vue'
 
 
 const router = createRouter({
@@ -39,7 +40,11 @@ const router = createRouter({
       path: '/privacy-policy',
       name: 'privacy-policy',
       component: PrivacyPolicy
-
+    },
+    {
+      path: '/terms-of-services',
+      name: 'terms-of-services',
+      component: TermsService
     },
     {
       path: '/about',

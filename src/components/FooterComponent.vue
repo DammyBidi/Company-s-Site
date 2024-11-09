@@ -30,7 +30,7 @@
         <div class="legal">
           <h4>Legal</h4>
           <router-link to="/privacy-policy">Privacy Policy</router-link>
-          <router-link to="">Terms of Service</router-link>
+          <router-link to="/terms-of-services">Terms of Service</router-link>
         </div>
       </div>
     </div>
