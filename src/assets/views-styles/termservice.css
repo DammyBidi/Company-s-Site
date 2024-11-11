@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+#terms-service {
+  scroll-behavior: smooth;
+}
+
 .nav-container {
   position: fixed;
   top: 0;
@@ -131,12 +135,12 @@ li {
     font-size: 1.125rem;
   }
 
-  .content p, li {
+  .content p,
+  li {
     font-size: 0.875rem;
   }
 
-  
   .content ul {
     margin-left: 2rem;
-   }
+  }
 }

@@ -25,7 +25,7 @@
 
         <main class="content">
           <section id="introduction">
-            <h3>Trailblazing Technology Solution Teams Of Service</h3>
+            <h3>Terms Of Service</h3>
             <h1>
               These Terms of Service ("Terms") govern your use of Trailblazing
               Technology Solutions's website and services. By accessing or using

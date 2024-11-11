@@ -23,7 +23,7 @@
         <router-link to="/">Home</router-link>
       </li>
       <li>
-        <router-link to="/portfolio">Portfolio</router-link>
+        <!-- <router-link to="/portfolio">Portfolio</router-link> -->
       </li>
       <li>
         <router-link to="/services">Services</router-link>
@@ -32,7 +32,7 @@
         <router-link to="/about">About Us</router-link>
       </li>
       <li>
-        <router-link to="/blog">Blog</router-link>
+        <!-- <router-link to="/blog">Blog</router-link> -->
       </li>
       <router-link to="/contact-us"
         ><button>Get in touch with us</button></router-link

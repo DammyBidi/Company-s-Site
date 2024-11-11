@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Services from '../views/Services.vue'
 import ContactUs from '../views/ContactUs.vue'
-import Portfolio from '../views/Portfolio.vue'
-import Blog from '../views/Blog.vue'
+// import Portfolio from '../views/Portfolio.vue'
+// import Blog from '../views/Blog.vue'
 import PrivacyPolicy from '../views/PrivacyPolicy.vue'
 import TermsService from '../views/TermsService.vue'
 
@@ -16,11 +16,11 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
-    {
-      path: '/portfolio',
-      name: 'portfolio',
-      component: Portfolio
-    },
+    // {
+    //   path: '/portfolio',
+    //   name: 'portfolio',
+    //   component: Portfolio
+    // },
     {
       path: '/services',
       name: 'services',
@@ -31,11 +31,11 @@ const router = createRouter({
       name: 'contact-us',
       component: ContactUs
     },
-    {
-      path: '/blog',
-      name: 'blog',
-      component: Blog
-    },
+    // {
+    //   path: '/blog',
+    //   name: 'blog',
+    //   component: Blog
+    // },
     {
       path: '/privacy-policy',
       name: 'privacy-policy',

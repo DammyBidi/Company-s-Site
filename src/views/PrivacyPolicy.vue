@@ -33,7 +33,7 @@
 
         <main class="content">
           <section id="introduction">
-            <h3>Trailblazing Technology Solution Privacy Policy</h3>
+            <h3>Privacy Policy</h3>
             <h1>
               At Trailblazing Technology Solutions, we value your privacy and
               are committed to protecting your data. This Privacy Policy
