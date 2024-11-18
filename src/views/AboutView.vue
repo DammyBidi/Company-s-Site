@@ -140,8 +140,8 @@
         <div class="team-members">
           <img src="../assets/images/TeamImage1.svg" alt="" />
           <img src="../assets/images/TeamImage2.svg" alt="" />
-          <img src="../assets/images/TeamImage3.svg" alt="" />
-          <img src="../assets/images/TeamImage4.svg" alt="" />
+          <img src="../assets/images/TeamImage1.svg" alt="" />
+          <img src="../assets/images/TeamImage2.svg" alt="" />
         </div>
         <div class="mobile-team-section">
           <div class="icons">
@@ -186,8 +186,8 @@ const handleMenuState = (state: boolean) => {
 
 import member1 from "@/assets/images/mobile-team-member1.svg";
 import member2 from "@/assets/images/mobile-team-member2.svg";
-import member3 from "@/assets/images/mobile-team-member3.svg";
-import member4 from "@/assets/images/mobile-team-member4.svg";
+import member3 from "@/assets/images/mobile-team-member1.svg";
+import member4 from "@/assets/images/mobile-team-member2.svg";
 
 const mobileTeamMembers = [member1, member2, member3, member4];
 

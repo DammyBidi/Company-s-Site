@@ -192,7 +192,7 @@
       </div>
 
       <!-- Portfolio -->
-      <div class="portfolio">
+      <!-- <div class="portfolio">
         <h2>Portfolio</h2>
         <p>
           Explore our portfolio to see how we've helped businesses across
@@ -239,7 +239,7 @@
         <div class="btn">
           <router-link to="/portfolio"><button>See more</button></router-link>
         </div>
-      </div>
+      </div> -->
 
       <!-- FAQ -->
       <div class="faq-section">
