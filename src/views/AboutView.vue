@@ -137,7 +137,7 @@
           our team collaborates closely to turn your ideas into reality. We're
           not just problem solvers—we're partners in your success
         </p>
-        <div class="team-members">
+        <!-- <div class="team-members">
           <img src="../assets/images/TeamImage1.svg" alt="" />
           <img src="../assets/images/TeamImage2.svg" alt="" />
           <img src="../assets/images/TeamImage1.svg" alt="" />
@@ -151,7 +151,7 @@
           <div class="mobile-team-members">
             <img :src="mobileTeamMembers[currentImageIndex]" alt="Team Member" />
           </div>
-        </div>
+        </div> -->
       </div>
 
       <!-- Contact -->

@@ -22,7 +22,7 @@
     margin: 0;
     padding-top: 1rem;
     padding-left: 1rem;
-    gap: 1.5rem;
+    gap: 1.2rem;
     display: none;
     flex-direction: column;
     position: absolute;
@@ -32,7 +32,7 @@
     left: 0;
     background-color:  #111111;
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     border-radius: 8px;
     z-index: 3;
     opacity: 0; /* Initially hidden */
@@ -66,6 +66,7 @@
     display: block;
     color: #EEEEF0;
     font-size: 1.25rem;
+    
    
   }
 
@@ -77,7 +78,6 @@
     border: none;
     border-radius: 3.125rem;
     font-size: 1.2rem;
-    cursor: pointer;
     width: 16.8rem;
   }
   
