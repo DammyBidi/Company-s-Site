@@ -42,7 +42,7 @@
           extraordinary together.
         </p>
         <div class="join-us">
-          <img src="../assets/images/buttonimg.svg" alt="" />
+          <img src="../assets/images/buttonimg.svg" alt="button" />
           <p>Join us today</p>
         </div>
         <div class="buttons">
@@ -56,16 +56,15 @@
       </div>
 
       <div class="hero-image">
-        <!-- <img src="../assets/images/hero.webp" alt="" /> -->
-        <img src="../assets/images/hero.svg" alt="" />
+        <img src="../assets/images/hero-image.webp" alt="hero-image" />
       </div>
 
       <div class="mobile-hero-image"  ref="HeroImageContainer">
-        <img src="../assets/images/mobile-hero-image1.svg" alt="" />
-        <img src="../assets/images/mobile-hero-image2.svg" alt="" />
-        <img src="../assets/images/mobile-hero-image3.svg" alt="" />
-        <img src="../assets/images/mobile-hero-image4.svg" alt="" />
-        <img src="../assets/images/mobile-hero-image5.svg" alt="" />
+        <img src="../assets/images/mobile-hero-image1.webp" alt="hero-image" />
+        <img src="../assets/images/mobile-hero-image2.webp" alt="hero-image" />
+        <img src="../assets/images/mobile-hero-image3.webp" alt="hero-image" />
+        <img src="../assets/images/mobile-hero-image4.webp" alt="hero-image" />
+        <img src="../assets/images/mobile-hero-image5.webp" alt="hero-image" />
       </div>
 
       <!-- Our services -->
@@ -83,7 +82,7 @@
         <div class="service-cards">
           <div class="service-card">
             <div>
-              <img src="../assets/images/web-dev.svg" alt="" />
+              <img src="../assets/images/web-dev.svg" alt="icon" />
               <h4>Web Development</h4>
             </div>
             <p>
@@ -96,7 +95,7 @@
           </div>
           <div class="service-card">
             <div>
-              <img src="../assets/images/mobile-dev.svg" alt="" />
+              <img src="../assets/images/mobile-dev.svg" alt="icon" />
               <h4>Mobile App Development</h4>
             </div>
             <p>
@@ -109,7 +108,7 @@
           </div>
           <div class="service-card">
             <div>
-              <img src="../assets/images/consulting.svg" alt="" />
+              <img src="../assets/images/consulting.svg" alt="icon" />
               <h4>Consulting</h4>
             </div>
             <p>
@@ -129,7 +128,7 @@
         <div class="reasons">
           <div class="reason">
             <div class="image">
-              <img src="../assets/images/choose1.svg" alt="chooseimg" />
+              <img src="../assets/images/choose1.webp" alt="chooseimg" />
             </div>
             <div class="text">
               <h3>Excellence</h3>
@@ -163,12 +162,12 @@
               </p>
             </div>
             <div class="image">
-              <img src="../assets/images/choose2.svg" alt="chooseimg" />
+              <img src="../assets/images/choose2.webp" alt="chooseimg" />
             </div>
           </div>
           <div class="reason">
             <div class="image">
-              <img src="../assets/images/choose3.svg" alt="chooseimg" />
+              <img src="../assets/images/choose3.webp" alt="chooseimg" />
             </div>
             <div class="text">
               <h3>Collaboration</h3>
@@ -264,7 +263,7 @@
       <!-- TOUCH LOGO -->
 
       <div class="touch">
-        <img src="../assets/images/touchLogo.svg" alt="" />
+        <img src="../assets/images/touchLogo.webp" alt="" />
       </div>
 
       <div class="touch-text">

@@ -50,7 +50,7 @@
         <div class="services">
           <div class="service">
             <div class="image">
-              <img src="../assets/images/webcodeimg.svg" alt="chooseimg" />
+              <img src="../assets/images/service1.webp" alt="service-img" />
             </div>
             <div class="text">
               <h3>Web development</h3>
@@ -76,14 +76,14 @@
             </div>
             <div class="image">
               <img
-                src="../assets/images/mobileappcodeimg.svg"
-                alt="chooseimg"
+                src="../assets/images/service2.webp"
+                alt="service-img"
               />
             </div>
           </div>
           <div class="service">
             <div class="image">
-              <img src="../assets/images/choose3.svg" alt="chooseimg" />
+              <img src="../assets/images/service3.webp" alt="service-img" />
             </div>
             <div class="text">
               <h3>Consulting</h3>

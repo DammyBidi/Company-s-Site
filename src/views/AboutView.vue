@@ -54,7 +54,7 @@
           </p>
         </div>
         <div class="mission-image">
-          <img src="../assets/images/mission-image.svg" alt="" />
+          <img src="../assets/images/mission-image.webp" alt="mission-image" />
         </div>
       </div>
 
@@ -64,7 +64,7 @@
         <div class="values">
           <div class="value">
             <div class="image">
-              <img src="../assets/images/choose1.svg" alt="chooseimg" />
+              <img src="../assets/images/choose1.webp" alt="choose-img" />
             </div>
             <div class="text">
               <h3>Excellence</h3>
@@ -98,12 +98,12 @@
               </p>
             </div>
             <div class="image">
-              <img src="../assets/images/choose2.svg" alt="chooseimg" />
+              <img src="../assets/images/choose2.webp" alt="chooseimg" />
             </div>
           </div>
           <div class="value">
             <div class="image">
-              <img src="../assets/images/choose3.svg" alt="chooseimg" />
+              <img src="../assets/images/choose3.webp" alt="chooseimg" />
             </div>
             <div class="text">
               <h3>Collaboration</h3>
