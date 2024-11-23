@@ -49,7 +49,10 @@ p, button, h4, a, label {
 }
 
 .custom-success-toast {
-  background-color: #1a4bff; /* Green */
-  color: white; /* Text color */
+  background-color: #1a4bff; 
+  color: white; 
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
