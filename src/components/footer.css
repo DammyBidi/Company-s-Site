@@ -22,34 +22,6 @@ footer .left {
   gap: 3rem;
 }
 
-/* footer .logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-footer .logo img {
-  width: 6rem;
-}
-
-footer .logo div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-footer .logo h3 {
-  font-size: 2rem;
-  color: #eeeef0;
-}
-
-footer .logo p {
-  font-size: 0.8rem;
-  color: #eeeef0;
-  line-height: 0;
-} */
 
 footer .socials {
   display: flex;
@@ -66,6 +38,7 @@ footer .socials a {
 footer .right {
   display: flex;
   gap: 2.5rem;
+  margin-top: 0.5rem;
 }
 
 footer .footer-links,

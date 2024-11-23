@@ -47,3 +47,9 @@ p, button, h4, a, label {
   line-height: 2.025rem;
   
 }
+
+.custom-success-toast {
+  background-color: #1a4bff; /* Green */
+  color: white; /* Text color */
+}
+
