@@ -3,14 +3,32 @@
     <div class="footer-content">
       <div class="left">
         <div class="logo">
-          <router-link  to="/"><img src="../assets/images/TTS Logo-06.svg" alt=""></router-link>  
+          <router-link to="/"
+            ><img src="../assets/images/TTS Logo-06.svg" alt=""
+          /></router-link>
         </div>
         <div class="socials">
-          <a href="http://x.com" target="_blank" rel="noopener noreferrer"><img src="../assets/images/logo-twitter.svg" alt="" /></a>
-          <a target="_blank" href="https://www.facebook.com/profile.php?id=61563659004858&mibextid=ZbWKwL"><img src="../assets/images/logo-facebook.svg" alt="" /></a>
-          <a target="_blank" href="https://www.instagram.com/trailblazing_tech_solutions?igsh=MTgzN212Z2FtemRzbg=="><img src="../assets/images/logo-instagram.svg" alt="" /></a>
-          <a target="_blank" href="https://www.linkedin.com/company/trailblazing-technology-solutions"><img src="../assets/images/logo-linkedin.svg" alt="" /></a>
-          <a target="_blank" href="mailto:trailblazingtechsolutions@gmail.com"><img src="../assets/images/logo-email.svg" alt="" /></a>
+          <a href="http://x.com" target="_blank" rel="noopener noreferrer"
+            ><img src="../assets/images/logo-twitter.svg" alt=""
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/profile.php?id=61563659004858&mibextid=ZbWKwL"
+            ><img src="../assets/images/logo-facebook.svg" alt=""
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/trailblazing_tech_solutions?igsh=MTgzN212Z2FtemRzbg=="
+            ><img src="../assets/images/logo-instagram.svg" alt=""
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/trailblazing-technology-solutions"
+            ><img src="../assets/images/logo-linkedin.svg" alt=""
+          /></a>
+          <a target="_blank" href="mailto:trailblazingtechsolutions@gmail.com"
+            ><img src="../assets/images/logo-email.svg" alt=""
+          /></a>
         </div>
       </div>
       <div class="right">
@@ -23,19 +41,32 @@
         </div>
         <div class="legal">
           <h4>Legal</h4>
-          <router-link target="_blank" to="/privacy-policy">Privacy Policy</router-link>
-          <router-link target="_blank" to="/terms-of-services">Terms of Service</router-link>
+          <!-- <router-link to="/privacy-policy">Privacy Policy</router-link> -->
+          <a
+            :href="$router.resolve({ path: '/privacy-policy' }).href"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Privacy Policy
+          </a>
+          <a
+            :href="$router.resolve({ path: '/terms-of-services' }).href"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Terms of Service
+          </a>
+          <!-- <router-link target="_blank" to="/terms-of-services"
+            >Terms of Service</router-link
+          > -->
         </div>
       </div>
     </div>
   </footer>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
-@import "../components/footer.css"; 
-
+@import "../components/footer.css";
 </style>
