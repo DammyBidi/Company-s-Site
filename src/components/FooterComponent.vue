@@ -59,7 +59,7 @@
           >
             Terms of Service
           </a> -->
-          <router-link target="_blank" to="/terms-of-services"
+          <router-link to="/terms-of-services"
             >Terms of Service</router-link
           >
         </div>
