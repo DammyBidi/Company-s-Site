@@ -41,27 +41,8 @@
         </div>
         <div class="legal">
           <h4>Legal</h4>
-          <!-- <router-link to="/privacy-policy">Privacy Policy</router-link> -->
-          <router-link to="/privacy-policy" @click="openInNewTab">
-            Privacy Policy
-          </router-link>
-          <!-- <a
-            :href="$router.resolve({ path: '/privacy-policy' }).href"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Privacy Policy
-          </a> -->
-          <!-- <a
-            :href="$router.resolve({ path: '/terms-of-services' }).href"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Terms of Service
-          </a> -->
-          <router-link to="/terms-of-services"
-            >Terms of Service</router-link
-          >
+          <router-link to="/privacy-policy">Privacy Policy</router-link>
+          <router-link to="/terms-of-services">Terms of Service</router-link>
         </div>
       </div>
     </div>
@@ -69,17 +50,7 @@
 </template>
 
 <script setup lang="ts">
-import { useRouter } from "vue-router";
 
-// Access the Vue Router instance
-const router = useRouter();
-
-// Define the function to open the link in a new tab
-const openInNewTab = (event: MouseEvent): void => {
-  event.preventDefault(); // Prevent the default behavior of <router-link>
-  const url = router.resolve({ path: "/privacy-policy" }).href; // Resolve the route URL
-  window.open(url, "_blank"); // Open the resolved URL in a new tab
-};
 </script>
 
 <style scoped>
