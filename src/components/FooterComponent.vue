@@ -41,24 +41,24 @@
         </div>
         <div class="legal">
           <h4>Legal</h4>
-          <!-- <router-link to="/privacy-policy">Privacy Policy</router-link> -->
-          <a
+          <router-link to="/privacy-policy">Privacy Policy</router-link>
+          <!-- <a
             :href="$router.resolve({ path: '/privacy-policy' }).href"
             target="_blank"
             rel="noopener noreferrer"
           >
             Privacy Policy
-          </a>
-          <a
+          </a> -->
+          <!-- <a
             :href="$router.resolve({ path: '/terms-of-services' }).href"
             target="_blank"
             rel="noopener noreferrer"
           >
             Terms of Service
-          </a>
-          <!-- <router-link target="_blank" to="/terms-of-services"
+          </a> -->
+          <router-link target="_blank" to="/terms-of-services"
             >Terms of Service</router-link
-          > -->
+          >
         </div>
       </div>
     </div>
