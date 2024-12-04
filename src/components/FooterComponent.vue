@@ -41,15 +41,8 @@
         </div>
         <div class="legal">
           <h4>Legal</h4>
-          <!-- <a
-            :href="$router.resolve({ path: '/privacy-policy' }).href"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Privacy Policy
-          </a> -->
           <router-link target="_blank" to="/privacy-policy">Privacy Policy</router-link>
-          <router-link to="/terms-of-services">Terms of Service</router-link>
+          <router-link target="_blank" to="/terms-of-services">Terms of Service</router-link>
         </div>
       </div>
     </div>
