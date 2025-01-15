@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .main {
+    height: 100vh;
+} */
+
+nav {
+    padding: 1.5rem 3rem;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav h1 {
+    font-size: 2rem;
+    color: #EEEEF0;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.form-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 1.25rem;
+    background-color: #E8E8E8;
+    width: 40.75rem;
+    /* margin: 0 auto; */
+    padding: 1.875rem;
+    
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+form .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+form .form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+form .form-group .image-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+form .form-group .image-container img {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 100%;
+}
+
+form .input-container label {
+    font-size: 1rem;
+    color: #111111;
+    line-height: 1rem;
+}
+
+form .input-container input, form .input-container textarea {
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+    border-radius: 0.625rem;
+    border: 1px solid var(--5-f-606-a, #5F606A);
+    background-color: #E8E8E8;
+}
+
+form .input-container input[id="Name of the Author"], form .input-container input[id="tag"] {
+    width: 17rem;
+}
+
+form .input-container input:focus, form .input-container textarea:focus {
+    outline: none;
+    border: 1px solid #5F606A;
+}
+
+form .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+}
+
+form .form-actions .btn2 {
+    background-color: #1A4BFF;
+    color: white;
+    border: none;
+    width: 10.5625rem;
+    padding: 0.625rem 0.75rem;
+    border-radius: 3.125rem;
+    cursor: pointer;
+    font-size: 1.125rem;
+}
+
+form .form-actions .btn2:hover {
+    background-color: #2563EB;
+}
+
+form .form-actions .btn1 {
+    background-color: #ABABAB;
+    color: white;
+    border: none;
+    width: 10.5625rem;
+    padding: 0.625rem 0.75rem;
+    border-radius: 3.125rem;
+    cursor: pointer;
+    font-size: 1.125rem;
+}
+
+form .form-actions .btn1:hover {
+    background-color: #B8B8B8;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+  

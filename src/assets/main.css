@@ -49,7 +49,23 @@ p, button, h4, a, label {
 }
 
 .custom-success-toast {
-  background-color: #1a4bff; 
+  background-color: #4caf50; 
+  color: white; 
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.custom-error-toast {
+  background-color: #f44336!important; 
+  color: white; 
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.custom-info-toast {
+  background-color: #1a4bff!important; 
   color: white; 
   font-family: 'Manrope', sans-serif;
   font-weight: 500;

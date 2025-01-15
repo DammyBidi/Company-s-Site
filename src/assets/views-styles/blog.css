@@ -24,34 +24,6 @@ nav {
   margin: 0 auto;
 }
 
-/* nav .logo {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-nav .logo img {
-  width: 3.5rem;
-}
-
-nav .logo div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
-nav .logo h3 {
-  font-size: 1.5rem;
-  color: #eeeef0;
-}
-
-nav .logo p {
-  font-size: 0.6rem;
-  color: #eeeef0;
-  margin-left: 8px;
-  line-height: 0;
-} */
 
 .nav-links {
   display: flex;
@@ -134,68 +106,66 @@ hr {
   color: #ffffff;
 }
 
-.blog-section {
+
+
+.blog-grid {
+  display: grid;
+  /* padding: 20px; */
+  grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+  gap: 20px;
+}
+
+.blog-card {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  align-content: space-between;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #2A2A2A;
+  overflow: hidden;
 }
 
-.blog-post {
-    background-color: #2A2A2A;
-    width: 26.563rem;
-    padding: 0.75rem;
-    border-radius: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-
+.card-header {
+  position: relative;
 }
 
-.blog-post .blog-image img {
-    width: 100%;
+.card-header .thumbnail {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
 }
 
-.blog-text {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 10px;
 }
 
-.blog-text h3 {
-    font-size: 1.25rem;
-    color: #EEEEF0;
+.card-body h2 {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.025rem; /* 180% */
+  letter-spacing: 0.00563rem;
+  color: #EEEEF0;
+  margin: 0;
 }
 
-.blog-text p {
-    font-size: 1rem;
-    color: #EEEEF0;
+.card-body p {
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.35rem; /* 166.154% */
+  letter-spacing: 0.00406rem;
+  color: #CCC;
 }
 
-.author-details {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
 
-.author {
-    display: flex;
-    gap: 0.5rem;    
-}
 
-.author p {
-    font-size: 0.813rem;
-    color: #B2B3BD;
-}
 
-.blog-text a {
-    color: #B2B3BD;
-    text-decoration: none;
-    border-bottom: 2px solid #1a4bff;
-    width: 8rem;
-    padding-bottom: 1px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 
 @media screen and (max-width: 900px) {
   nav {

@@ -1,0 +1,169 @@
+.blog-overview {
+    padding: 20px;
+    color: #fff;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .controls {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .controls input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .controls .filter-btn {
+    padding: 10px;
+  }
+  
+  .controls .create-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .blog-grid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+    gap: 20px;
+  }
+  
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #2A2A2A;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    position: relative;
+  }
+  
+  .card-header .thumbnail {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+  }
+  
+  .card-header .more-options {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .card-header .options-menu {
+    position: absolute;
+    top: 43px;
+    right: 32px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.5rem;
+    background: #2A2A2A;
+    overflow: hidden;
+  }
+  
+  .card-header .options-menu button {
+    background: transparent;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+
+  .card-header .options-menu button:hover {
+    background: #333;
+  }
+
+  .card-header .options-menu button div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 1.25rem;
+  }
+
+  .card-header .options-menu button:last-child p{
+    color: #EB0A30;
+    
+  }
+
+
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 10px;
+  }
+  
+  .card-body h2 {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.025rem; /* 180% */
+    letter-spacing: 0.00563rem;
+    color: #EEEEF0;
+    margin: 0;
+  }
+  
+  .card-body p {
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.35rem; /* 166.154% */
+    letter-spacing: 0.00406rem;
+    color: #CCC;
+  }
+  
+
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+  
+  .btn-confirm {
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-cancel {
+    background-color: #dc3545;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-confirm:hover,
+  .btn-cancel:hover {
+    opacity: 0.9;
+  }
+  

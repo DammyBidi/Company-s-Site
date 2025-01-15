@@ -20,7 +20,7 @@
           >
           <router-link to="/services">Services</router-link>
           <router-link to="/about">About Us</router-link>
-          <router-link to="/blog">Blog</router-link>
+          <router-link to="/blog-page">Blog</router-link>
         </div>
         <router-link to="/contact-us"
           ><button>Get in touch with us</button></router-link
