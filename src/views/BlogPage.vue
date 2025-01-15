@@ -97,13 +97,14 @@ const fetchBlogs = async () => {
   try {
     const token =
       localStorage.getItem("authToken") || sessionStorage.getItem("authToken");
+    const headers: HeadersInit = token
+      ? { Authorization: `Bearer ${token}` }
+      : {};
     const response = await fetch(
       "https://trailblazing-backend-1.onrender.com/api/v1/",
       {
         method: "GET",
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
+        headers,
       }
     );
     const data = await response.json();
