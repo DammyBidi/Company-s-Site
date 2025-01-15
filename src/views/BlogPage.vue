@@ -57,6 +57,7 @@
               <h2>{{ blog.title }}</h2>
               <p>By {{ blog.author }} • {{ formatDate(blog.createdAt) }}</p>
             </div>
+            <p class="more">Read more...</p>
           </div>
         </div>
       </div>
