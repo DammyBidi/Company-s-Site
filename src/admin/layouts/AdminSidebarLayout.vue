@@ -16,10 +16,12 @@ import AdminSidebar from "../components/AdminSidebar.vue";
 .admin-sidebar-layout {
   display: flex;
   height: 100vh;
-  max-width: 1440px;
-  margin: 0 auto;
+  /* max-width: 1440px;
+  margin: 0 auto; */
 }
 .admin-main-content {
+  margin-left: 15rem;
+  margin-top: 1rem;
   flex: 1;
   padding: 1rem; /* Add padding if necessary */
   overflow-y: auto;

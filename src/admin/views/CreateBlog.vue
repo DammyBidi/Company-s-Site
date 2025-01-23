@@ -76,7 +76,10 @@
           </div>
 
           <div class="form-actions">
-            <button class="btn1" type="button">Draft</button>
+            <div type="button" class="draft">
+              <img src="../assets/images/draft.svg" alt="">
+              <p>Draft</p>
+            </div>
             <button class="btn2" type="button" >Cancel</button>
             <button class="btn3" type="submit" :disabled="isSubmitting">
               {{ isSubmitting ? "Posting..." : "Post" }}

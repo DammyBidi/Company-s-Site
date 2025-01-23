@@ -10,7 +10,7 @@
         </div>
         <div class="nav-links">
           <router-link to="/">Home</router-link>
-          <router-link to="/portfolio">Portfolio</router-link>
+          <!-- <router-link to="/portfolio">Portfolio</router-link> -->
           <router-link to="/services">Services</router-link>
           <router-link to="/about">About Us</router-link>
           <router-link class="blog-link" to="/blog-page">Blog</router-link>
@@ -32,6 +32,11 @@
           industry trends and best practices to tips and tricks for developers,
           our blog is your go-to resource for staying informed and inspired.
         </p>
+      </div>
+
+      <div class="header-controls">
+        <input type="text" placeholder="Search" class="search-bar" />
+        <img src="../admin/assets/images/search.svg" alt="" />
       </div>
 
       <!-- Blog Posts -->

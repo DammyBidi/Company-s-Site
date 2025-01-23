@@ -118,11 +118,13 @@ hr {
   font-size: 1rem;
 }
 
+
+
 .blog-content {
- 
-  font-size: 1rem;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem!important;
   color: #fff;
-  font-weight: 200!important;
+  /* font-weight: 200!important; */
   line-height: 2.475rem; /* 165% */
   letter-spacing: 0.00225rem;
 }

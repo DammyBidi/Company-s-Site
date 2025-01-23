@@ -36,7 +36,7 @@
           <h4>Company</h4>
           <router-link to="/about">About Us</router-link>
           <router-link to="/contact-us">Contact us</router-link>
-          <!-- <router-link to="/blog">Blog</router-link> -->
+          <router-link to="/blog">Blog</router-link>
           <router-link to="/services">Services</router-link>
         </div>
         <div class="legal">

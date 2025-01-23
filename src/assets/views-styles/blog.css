@@ -90,6 +90,34 @@ hr {
   text-align: center;
 }
 
+.header-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 1440px;
+  margin: 2rem auto;
+  gap: 10px;
+}
+
+.header-controls img {
+  width: 40px;
+}
+
+.search-bar {
+  width: 24.0625rem;
+  padding: 0.625rem 1rem;
+  gap: 0.625rem;
+  border-radius: 3.125rem;
+  border: 1px solid #eeeef0;
+  background-color: #eeeef0;
+  outline: none;
+  font-size: 1.125rem;
+}
+
+::placeholder {
+  font-size: 1.125rem;
+}
+
 /* Blog posts */
 
 .blog-container {
