@@ -4,9 +4,7 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link to="/"
-            ><img src="../assets/images/navlogo.svg" alt=""
-          /></router-link>
+          <router-link to="/">LOGO</router-link>
         </div>
       </nav>
     </div>
@@ -27,8 +25,7 @@
           <section id="introduction">
             <h3>Terms Of Service</h3>
             <h1>
-              These Terms of Service ("Terms") govern your use of Trailblazing
-              Technology Solutions's website and services. By accessing or using
+              These Terms of Service ("Terms") govern your use of the company's website and services. By accessing or using
               our website and services, you agree to these Terms. If you do not
               agree, you may not use our services.
             </h1>

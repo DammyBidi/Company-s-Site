@@ -4,14 +4,7 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link to="/"
-            ><img src="../assets/images/navlogo.svg" alt=""
-          /></router-link>
-          <!-- <img src="../assets/images/TTS Logo.svg" alt="" />
-          <div>
-            <h3>Trailblazing</h3>
-            <p>TECHNOLOGY SOLUTIONS</p>
-          </div> -->
+          <router-link to="/">LOGO</router-link>
         </div>
         <div class="nav-links">
           <router-link to="/">Home</router-link>
@@ -32,7 +25,7 @@
       <div class="hero">
         <h1>About Us</h1>
         <p>
-          Trailblazing Technology Solutions is a forward-thinking software
+          Company is a forward-thinking software
           development company on a mission to redefine innovation in the tech
           world. With a relentless pursuit of excellence, dynamic creativity,
           and a deep commitment to customer-centric innovation, we are not just
@@ -130,7 +123,7 @@
       <div class="team">
         <h1>Meet The Team</h1>
         <p>
-          At Trailblazing, our team is the heart of everything we do. A diverse
+          At Company, our team is the heart of everything we do. A diverse
           group of skilled professionals, we bring together a wealth of
           experience and passion for technology. Whether it's innovative web
           development, intuitive UI/UX design, or groundbreaking AI solutions,
@@ -156,7 +149,7 @@
 
       <!-- Contact -->
       <div class="contact">
-        <div><img src="../assets/images/TTS Logo-06.svg" alt="" /></div>
+        <div><h1>LOGO</h1></div>
         <div class="buttons">
           <router-link to="/contact-us"
             ><button class="btn1">Contact us</button></router-link

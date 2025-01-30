@@ -4,14 +4,7 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link to="/"
-            ><img src="../assets/images/navlogo.svg" alt=""
-          /></router-link>
-          <!-- <img src="../assets/images/TTS Logo.svg" alt="" />
-          <div>
-            <h3>Trailblazing</h3>
-            <p>TECHNOLOGY SOLUTIONS</p>
-          </div> -->
+          <router-link to="/">LOGO</router-link>
         </div>
         <div class="nav-links">
           <router-link class="home-link" to="/">Home</router-link>
@@ -29,13 +22,13 @@
 
     <div :class="{ blurred: isNavOpen }">
       <div class="hero">
-        <p class="glowing-button">Welcome to trailblazing</p>
+        <p class="glowing-button">Welcome to Company</p>
         <h1>
           Defining Excellence,<br />
           Innovating Tomorrow
         </h1>
         <p class="paragraph">
-          At Trailblazing, we push the limits of technology, creating custom
+          At Company, we push the limits of technology, creating custom
           software solutions that propel your business forward. Our expert team
           leverages cutting-edge technologies and innovative thinking to deliver
           exceptional, user-focused experiences. Let's build something
@@ -59,7 +52,7 @@
         <img src="../assets/images/hero-image.webp" alt="hero-image" />
       </div>
 
-      <div class="mobile-hero-image"  ref="HeroImageContainer">
+      <div class="mobile-hero-image" ref="HeroImageContainer">
         <img src="../assets/images/mobile-hero-image1.webp" alt="hero-image" />
         <img src="../assets/images/mobile-hero-image2.webp" alt="hero-image" />
         <img src="../assets/images/mobile-hero-image3.webp" alt="hero-image" />
@@ -72,7 +65,7 @@
       <div class="services">
         <h3>Our Services</h3>
         <p>
-          At Trailblazing Technology Solutions, we offer a full spectrum of
+          At Company, we offer a full spectrum of
           software development services designed to meet the unique needs of
           businesses across various industries. From conceptualization to
           deployment and beyond, our team is dedicated to delivering solutions
@@ -263,7 +256,7 @@
       <!-- TOUCH LOGO -->
 
       <div class="touch">
-        <img src="../assets/images/touchLogo.webp" alt="" />
+        <!-- <img src="../assets/images/touchLogo.webp" alt="" /> -->
       </div>
 
       <div class="touch-text">
@@ -287,7 +280,7 @@ const HeroImageContainer = ref<HTMLElement | null>(null);
 
 const startContinuousScrolling = (
   container: HTMLElement,
-  direction: "left" 
+  direction: "left"
 ) => {
   const scrollSpeed = 2;
 

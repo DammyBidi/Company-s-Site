@@ -1,10 +1,7 @@
 <template>
   <div class="navbar">
     <div class="logo">
-      <router-link to="/"
-        ><img src="../assets/images/mobilenavlogo.svg" alt="" />
-      </router-link>
-      <!-- <img src="../assets/images/mobilenavlogo.svg" alt="" /> -->
+      <router-link to="/">LOGO</router-link>
     </div>
     <div class="menu-icon" @click="toggleMenu">
       <img

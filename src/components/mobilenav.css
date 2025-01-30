@@ -12,9 +12,11 @@
    
   }
 
-  .navbar .logo {
-    display: flex;
-    align-items: center;
+  .navbar .logo a {
+    color: #ffffff;
+    font-size: 2rem;
+    text-decoration: none;
+  
   }
   
   .nav-items {

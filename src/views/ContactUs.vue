@@ -4,9 +4,7 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link to="/"
-            ><img src="../assets/images/navlogo.svg" alt=""
-          /></router-link>
+          <router-link to="/">LOGO</router-link>
         </div>
         <div class="nav-links">
           <router-link to="/">Home</router-link>
@@ -40,11 +38,11 @@
           <div class="info-container">
             <div>
               <img src="../assets/images/callicon.svg" alt="" />
-              <p>+2348059381638</p>
+              <p>+123456789</p>
             </div>
             <div>
               <img src="../assets/images/emailicon.svg" alt="" />
-              <p>trailblazingtechsolutions@gmail.com</p>
+              <p>companysolutions@gmail.com</p>
             </div>
             <!-- <div>
               <img src="../assets/images/locationicon.svg" alt="" />
@@ -60,23 +58,23 @@
               <img src="../assets/images/logo-twitter.svg" alt="" />
               <a
                 target="_blank"
-                href="https://www.facebook.com/profile.php?id=61563659004858&mibextid=ZbWKwL"
+                href=""
                 ><img src="../assets/images/logo-facebook.svg" alt=""
               /></a>
               <a
                 target="_blank"
-                href="https://www.instagram.com/trailblazing_tech_solutions?igsh=MTgzN212Z2FtemRzbg=="
+                href=""
                 ><img src="../assets/images/logo-instagram.svg" alt=""
               /></a>
               <a
                 target="_blank"
-                href="https://www.linkedin.com/company/trailblazing-technology-solutions"
+                href=""
                 ><img src="../assets/images/logo-linkedin.svg" alt=""
               /></a>
 
               <a
                 target="_blank"
-                href="mailto:trailblazingtechsolutions@gmail.com"
+                href=""
                 ><img src="../assets/images/logo-email.svg" alt=""
               /></a>
             </div>

@@ -3,9 +3,7 @@
     <div class="footer-content">
       <div class="left">
         <div class="logo">
-          <router-link to="/"
-            ><img src="../assets/images/TTS Logo-06.svg" alt=""
-          /></router-link>
+          <router-link to="/">LOGO</router-link>
         </div>
         <div class="socials">
           <a href="http://x.com" target="_blank" rel="noopener noreferrer"
@@ -13,20 +11,20 @@
           /></a>
           <a
             target="_blank"
-            href="https://www.facebook.com/profile.php?id=61563659004858&mibextid=ZbWKwL"
+            href=""
             ><img src="../assets/images/logo-facebook.svg" alt=""
           /></a>
           <a
             target="_blank"
-            href="https://www.instagram.com/trailblazing_tech_solutions?igsh=MTgzN212Z2FtemRzbg=="
+            href=""
             ><img src="../assets/images/logo-instagram.svg" alt=""
           /></a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/company/trailblazing-technology-solutions"
+            href=""
             ><img src="../assets/images/logo-linkedin.svg" alt=""
           /></a>
-          <a target="_blank" href="mailto:trailblazingtechsolutions@gmail.com"
+          <a target="_blank" href=""
             ><img src="../assets/images/logo-email.svg" alt=""
           /></a>
         </div>
@@ -41,8 +39,8 @@
         </div>
         <div class="legal">
           <h4>Legal</h4>
-          <router-link target="_blank" to="/privacy-policy">Privacy Policy</router-link>
-          <router-link target="_blank" to="/terms-of-services">Terms of Service</router-link>
+          <router-link  to="/">Privacy Policy</router-link>
+          <router-link to="/">Terms of Service</router-link>
         </div>
       </div>
     </div>

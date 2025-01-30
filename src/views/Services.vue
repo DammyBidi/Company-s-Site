@@ -4,14 +4,7 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link to="/"
-            ><img src="../assets/images/navlogo.svg" alt=""
-          /></router-link>
-          <!-- <img src="../assets/images/TTS Logo.svg" alt="" />
-          <div>
-            <h3>Trailblazing</h3>
-            <p>TECHNOLOGY SOLUTIONS</p>
-          </div> -->
+          <router-link to="/">LOGO</router-link>
         </div>
         <div class="nav-links">
           <router-link to="/">Home</router-link>
@@ -35,7 +28,7 @@
       <div class="hero">
         <h1>Our Services</h1>
         <p>
-          At Trailblazing Technology Solutions, we offer a full spectrum of
+          At Company, we offer a full spectrum of
           software development services designed to meet the unique needs of
           businesses across various industries. From conceptualization to
           deployment and beyond, our team is dedicated to delivering solutions
@@ -101,7 +94,7 @@
 
       <!-- Contact -->
       <div class="contact">
-        <div><img src="../assets/images/TTS Logo-06.svg" alt="" /></div>
+        <div><h1>LOGO</h1></div>
         <div class="buttons">
           <router-link to="/contact-us"
             ><button class="btn1">Contact us</button></router-link

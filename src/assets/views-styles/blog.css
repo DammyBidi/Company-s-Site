@@ -24,6 +24,11 @@ nav {
   margin: 0 auto;
 }
 
+nav .logo a {
+  color: #ffffff;
+  font-size: 2rem;
+  text-decoration: none;
+}
 
 .nav-links {
   display: flex;
@@ -94,6 +99,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 0rem 3rem;
   max-width: 1440px;
   margin: 2rem auto;
   gap: 10px;
@@ -236,6 +242,14 @@ hr {
 
   .hero p {
     font-size: 1rem;
+  }
+
+  .header-controls {
+    padding: 0rem 1rem;
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   }
 
   .blog-container {

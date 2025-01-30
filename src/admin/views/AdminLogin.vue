@@ -2,7 +2,9 @@
 <template>
   <div class="main">
     <nav>
-      <img src="/src/assets/images/logo.svg" alt="" />
+      <div class="logo">
+        <router-link to="/">LOGO</router-link>
+      </div>
     </nav>
     <div class="body">
       <div class="form-container">
@@ -52,7 +54,6 @@ import { useRouter } from "vue-router";
 import { ref } from "vue";
 // import { jwtDecode } from "jwt-decode";
 
-
 const router = useRouter();
 const email = ref("");
 const password = ref("");
@@ -60,7 +61,7 @@ const rememberMe = ref(false);
 const loading = ref(false);
 const errorMessage = ref("");
 
-const loginUrl =
+const logUrl =
   "https://trailblazing-backend-1.onrender.com/api/v1/admin/login";
 
 const handleLogin = async () => {
@@ -91,7 +92,6 @@ const handleLogin = async () => {
     if (!response.ok) {
       throw new Error(result.message || "An unexpected error occurred.");
     }
-
 
     // Extract the token
     const { token, admin } = result.data || {};
@@ -127,7 +127,6 @@ const handleLogin = async () => {
     loading.value = false;
   }
 };
-
 </script>
 
 <style scoped>

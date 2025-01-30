@@ -4,9 +4,7 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link to="/"
-            ><img src="../assets/images/navlogo.svg" alt=""
-          /></router-link>
+          <router-link to="/">LOGO</router-link>
         </div>
         <div class="nav-links">
           <router-link to="/">Home</router-link>
@@ -27,7 +25,7 @@
       <div class="hero">
         <h1>Blog</h1>
         <p>
-          Welcome to the Trailblazing Technology Solutions blog! Here, you'll
+          Welcome to the company blog page! Here, you'll
           find the latest news, insights, and updates on all things tech. From
           industry trends and best practices to tips and tricks for developers,
           our blog is your go-to resource for staying informed and inspired.
