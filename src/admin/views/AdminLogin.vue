@@ -61,8 +61,8 @@ const rememberMe = ref(false);
 const loading = ref(false);
 const errorMessage = ref("");
 
-const logUrl =
-  "https://trailblazing-backend-1.onrender.com/api/v1/admin/login";
+const loginUrl =
+  "https://trailblazing-backend-1.onrendedmin/login";
 
 const handleLogin = async () => {
   loading.value = true;
