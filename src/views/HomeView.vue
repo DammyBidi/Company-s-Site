@@ -22,7 +22,7 @@
 
     <div :class="{ blurred: isNavOpen }">
       <div class="hero">
-        <p class="glowing-button">Welcome to Company</p>
+        <p class="glowing-button">Welcome to company</p>
         <h1>
           Defining Excellence,<br />
           Innovating Tomorrow
