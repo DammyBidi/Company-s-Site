@@ -4,7 +4,7 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link to="/">LOGO</router-link>
+          <router-link to="/"><img src="../assets/images/logo1.png" alt="Excechen Systems Logo" srcset=""></router-link>
         </div>
       </nav>
     </div>
@@ -48,7 +48,7 @@
             <h2>2. Third-party service</h2>
             <p>
               Our website may include links to third-party websites or services.
-              Trailblazing Technology Solutions is not responsible for the
+              Excechen Systems is not responsible for the
               content, functionality, or privacy practices of third-party
               services. You access third-party services at your own risk
             </p>
@@ -67,7 +67,7 @@
           <section id="contact">
             <h2>4. Contact us</h2>
             <p>
-                If you have any questions or concerns about these Terms, please contact us at trailblazingtechsolutions@gmail.com
+                If you have any questions or concerns about these Terms, please contact us at <a href="mailto:excechen@gmail.com">excechen@gmail.com</a>
             </p>
           </section>
         </main>

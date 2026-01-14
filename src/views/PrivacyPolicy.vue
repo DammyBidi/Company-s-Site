@@ -5,7 +5,7 @@
       <nav>
         <div class="logo">
           <router-link to="/"
-            ><img src="../assets/images/navlogo.svg" alt=""
+            ><img src="../assets/images/logo1.png" alt="Excechen Systems Logo"
           /></router-link>
         </div>
       </nav>
@@ -35,7 +35,7 @@
           <section id="introduction">
             <h3>Privacy Policy</h3>
             <h1>
-              At Trailblazing Technology Solutions, we value your privacy and
+              At Excechen Systems, we value your privacy and
               are committed to protecting your data. This Privacy Policy
               explains how we collect, use, and safeguard the information you
               provide. You agree to the practices described in this policy by
@@ -121,7 +121,7 @@
             </ul>
             <p>
               To exercise these rights, please contact us at
-              trailblazingtechsolutions@gmail.com.
+              <a href="mailto:excechen@gmail.com">excechen@gmail.com</a>
             </p>
           </section>
 
@@ -148,7 +148,7 @@
             <h2>8. Contact Us</h2>
             <p>
               If you have any questions or concerns about our Privacy Policy,
-              please contact us at trailblazingtechsolutions@gmail.com
+              please contact us at <a href="mailto:excechen@gmail.com">excechen@gmail.com</a>
             </p>
           </section>
         </main>

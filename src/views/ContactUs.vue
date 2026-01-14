@@ -4,7 +4,7 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link to="/">LOGO</router-link>
+          <router-link to="/"> <img src="../assets/images/logo1.png" alt="" srcset=""></router-link>
         </div>
         <div class="nav-links">
           <router-link to="/">Home</router-link>
@@ -38,11 +38,11 @@
           <div class="info-container">
             <div>
               <img src="../assets/images/callicon.svg" alt="" />
-              <p>+123456789</p>
+              <p>+2349027345767</p>
             </div>
             <div>
               <img src="../assets/images/emailicon.svg" alt="" />
-              <p>companysolutions@gmail.com</p>
+              <p>excechen@gmail.com</p>
             </div>
             <!-- <div>
               <img src="../assets/images/locationicon.svg" alt="" />
@@ -231,7 +231,7 @@ const submitForm = async () => {
   isSubmitting.value = true;
   try {
     const response = await fetch(
-      "https://trailblazing-backend-1.onrender.com/api/v1/contact-us",
+      "",
       {
         method: "POST",
         headers: {

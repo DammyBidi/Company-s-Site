@@ -4,7 +4,7 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link to="/">LOGO</router-link>
+          <router-link to="/"> <img src="../assets/images/logo1.png" alt="" srcset=""></router-link>
         </div>
         <div class="nav-links">
           <router-link class="home-link" to="/">Home</router-link>
@@ -22,13 +22,14 @@
 
     <div :class="{ blurred: isNavOpen }">
       <div class="hero">
-        <p class="glowing-button">Welcome to company</p>
+        <p class="glowing-button">Welcome to Excechen</p>
         <h1>
-          Defining Excellence,<br />
-          Innovating Tomorrow
+          Building with Grace,<br />
+          Delivering With Excellence.
+          
         </h1>
         <p class="paragraph">
-          At Company, we push the limits of technology, creating custom
+          At Excechen, we push the limits of technology, creating custom
           software solutions that propel your business forward. Our expert team
           leverages cutting-edge technologies and innovative thinking to deliver
           exceptional, user-focused experiences. Let's build something
@@ -65,7 +66,7 @@
       <div class="services">
         <h3>Our Services</h3>
         <p>
-          At Company, we offer a full spectrum of
+          At Excechen, we offer a full spectrum of
           software development services designed to meet the unique needs of
           businesses across various industries. From conceptualization to
           deployment and beyond, our team is dedicated to delivering solutions

@@ -4,7 +4,7 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link to="/">LOGO</router-link>
+          <router-link to="/"> <img src="../assets/images/logo1.png" alt="" srcset=""></router-link>
         </div>
         <div class="nav-links">
           <router-link to="/">Home</router-link>
