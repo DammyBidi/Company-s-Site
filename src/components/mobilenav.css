@@ -12,6 +12,10 @@
    
   }
 
+  .navbar .logo img {
+    width: 60%;
+  }
+
   .navbar .logo a {
     color: #ffffff;
     font-size: 2rem;

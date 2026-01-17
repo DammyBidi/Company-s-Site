@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <div class="logo">
-      <router-link to="/">LOGO</router-link>
+      <router-link to="/"><img src="../assets/images/logo1.png" alt="logo" srcset=""></router-link>
     </div>
     <div class="menu-icon" @click="toggleMenu">
       <img
