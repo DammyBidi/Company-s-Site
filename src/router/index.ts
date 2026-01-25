@@ -7,6 +7,7 @@ import PrivacyPolicy from '../views/PrivacyPolicy.vue'
 import TermsService from '../views/TermsService.vue'
 import BlogPage from '../views/BlogPage.vue'
 import BlogDetails from "../views/BlogDetails.vue";
+import Portfolio from '@/views/Portfolio.vue'
 
 const publicRoutes = [
   {
@@ -23,6 +24,11 @@ const publicRoutes = [
     path: '/contact-us',
     name: 'contact-us',
     component: ContactUs,
+  },
+  {
+    path: '/portfolio',
+    name: 'portfolio',
+    component: Portfolio,
   },
   {
     path: '/privacy-policy',

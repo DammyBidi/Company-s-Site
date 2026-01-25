@@ -8,7 +8,7 @@
         </div>
         <div class="nav-links">
           <router-link to="/">Home</router-link>
-          <!-- <router-link to="/portfolio">Portfolio</router-link> -->
+          <router-link to="/portfolio">Portfolio</router-link>
           <router-link to="/services">Services</router-link>
           <router-link to="/about">About Us</router-link>
           <router-link to="/blog-page">Blog</router-link>
@@ -47,8 +47,8 @@
             <!-- <div>
               <img src="../assets/images/locationicon.svg" alt="" />
               <p>
-                Trailblazing Technology Solutions, <br />
-                123 Main Street, Lagos, Nigeria
+                Excechen Systems, <br />
+                , Lagos, Nigeria 
               </p>
             </div> -->
           </div>

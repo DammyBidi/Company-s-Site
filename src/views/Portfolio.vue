@@ -49,31 +49,87 @@
       <!-- Portfolio -->
       <div class="portfolio">
         <div class="top-section">
-          <div class="portfolio-images">
-            <img
-              src="../assets/images/portfolio-image.svg"
-              alt="portfolio-image"
-            />
+          <div class="portfolio-card">
+            <div class="card-content">
+              <h2 class="card-title">Albarka TopUp</h2>
+              <p class="card-paragraph">
+                Albarka TopUp is a digital VTU and bill payment application
+                designed to make essential services easily accessible. The app
+                allows users to purchase airtime and mobile data, pay
+                electricity bills, and manage TV subscriptions directly from
+                their mobile device. Users create accounts to securely manage
+                transactions, view payment history, and receive instant
+                confirmations. 
+              </p>
+              <button class="card-button">Digital VTU & Bill Payment</button>
+            </div>
+            <div class="card-image">
+              <img
+                src="../assets/images/portfolio-image.svg"
+                alt="Albarka TopUp"
+              />
+            </div>
           </div>
-          <div class="portfolio-images">
-            <img
-              src="../assets/images/portfolio-image.svg"
-              alt="portfolio-image"
-            />
+          <div class="portfolio-card">
+            <div class="card-content">
+              <h2 class="card-title">NewCity University Web Platform</h2>
+              <p class="card-paragraph">
+                A comprehensive university web platform built to handle online
+                admissions, student and lecturer portals, and public-facing
+                academic information. The system supports admission
+                applications, student access to academic records, lecturer
+                management tools, and administrative workflows, alongside a
+                responsive public website for programs, news, and institutional
+                updates.
+              </p>
+              <button class="card-button">University Platform</button>
+            </div>
+            <div class="card-image">
+              <img
+                src="../assets/images/portfolio-image.svg"
+                alt="University Platform"
+              />
+            </div>
           </div>
         </div>
         <div class="bottom-section">
-          <div class="portfolio-images">
-            <img
-              src="../assets/images/portfolio-image.svg"
-              alt="portfolio-image"
-            />
+          <div class="portfolio-card">
+            <div class="card-content">
+              <h2 class="card-title">Edquity</h2>
+              <p class="card-paragraph">
+                Edquity is a civic-tech digital platform designed to empower
+                active citizens to report the state of schools in their
+                communities. The aim is to bridge the communication gap between
+                citizens and governing bodies by providing a centralized system
+                for documenting and sharing school-related issues.
+              </p>
+              <button class="card-button">Civic-Tech</button>
+            </div>
+            <div class="card-image">
+              <img src="../assets/images/portfolio-image.svg" alt="Edquity" />
+            </div>
           </div>
-          <div class="portfolio-images">
-            <img
-              src="../assets/images/portfolio-image.svg"
-              alt="portfolio-image"
-            />
+          <div class="portfolio-card">
+            <div class="card-content">
+              <h2 class="card-title">Glam Connect</h2>
+              <p class="card-paragraph">
+                Glam Connect is a beauty-tech platform that connects makeup
+                artists with potential clients through a seamless booking
+                experience. The platform simplifies how customers discover and
+                engage with makeup artists by providing personalized artist
+                listings, booking options, and direct communication tools. For
+                makeup artists, it removes the hassle of client acquisition by
+                showcasing their work and making their services accessible to a
+                wider audience.
+              </p>
+              <button class="card-button">Beauty-Tech</button>
+            </div>
+            <div class="card-image">
+              <img
+                src="../assets/images/portfolio-image.svg"
+                alt="Glam Connect"
+              />
+            </div>
           </div>
         </div>
       </div>
