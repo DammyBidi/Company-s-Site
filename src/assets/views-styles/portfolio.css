@@ -239,16 +239,48 @@ hr {
   }
 
   .portfolio {
-    display: none;
-  }
-
-  .mobile-portfolio {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     padding: 0rem 1rem;
     max-width: 100%;
     margin: 4rem auto 0;
+  }
+
+  .mobile-portfolio {
+    display: none;
+  }
+
+  .portfolio .top-section,
+  .portfolio .bottom-section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .portfolio-card {
+    border-radius: 0.75rem;
+  }
+
+  .card-content {
+    padding: 1.5rem;
+    gap: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-paragraph {
+    font-size: 0.95rem;
+  }
+
+  .card-image {
+    padding: 1.5rem;
+    min-height: auto;
+  }
+
+  .card-image img {
+    width: 100%;
   }
 
 

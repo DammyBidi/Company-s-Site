@@ -59,13 +59,13 @@
                 electricity bills, and manage TV subscriptions directly from
                 their mobile device. Users create accounts to securely manage
                 transactions, view payment history, and receive instant
-                confirmations. 
+                confirmations.
               </p>
               <button class="card-button">Digital VTU & Bill Payment</button>
             </div>
             <div class="card-image">
               <img
-                src="../assets/images/portfolio-image.svg"
+                src="../assets/images/albarka.png"
                 alt="Albarka TopUp"
               />
             </div>
@@ -86,7 +86,7 @@
             </div>
             <div class="card-image">
               <img
-                src="../assets/images/portfolio-image.svg"
+                src="../assets/images/new-city.png"
                 alt="University Platform"
               />
             </div>
@@ -106,7 +106,7 @@
               <button class="card-button">Civic-Tech</button>
             </div>
             <div class="card-image">
-              <img src="../assets/images/portfolio-image.svg" alt="Edquity" />
+              <img src="../assets/images/equity .jpeg" alt="Edquity" />
             </div>
           </div>
           <div class="portfolio-card">
@@ -126,19 +126,49 @@
             </div>
             <div class="card-image">
               <img
-                src="../assets/images/portfolio-image.svg"
+                src="../assets/images/glam-connect .jpeg"
                 alt="Glam Connect"
               />
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="mobile-portfolio">
-        <img src="../assets/images/Frame20.svg" alt="portfolio-images" />
-        <img src="../assets/images/Frame20.svg" alt="portfolio-images" />
-        <img src="../assets/images/Frame20.svg" alt="portfolio-images" />
-        <img src="../assets/images/Frame20.svg" alt="portfolio-images" />
+        <div class="bottom-section">
+          <div class="portfolio-card">
+            <div class="card-content">
+              <h2 class="card-title">E-Commerce Platform</h2>
+              <p class="card-paragraph">
+                A comprehensive e-commerce solution that revolutionized online
+                shopping experiences. Built with cutting-edge technology, this
+                platform delivers seamless user interactions, secure payment
+                processing, and intelligent inventory management.
+              </p>
+              <button class="card-button">E-Commerce</button>
+            </div>
+            <div class="card-image">
+              <img src="../assets/images/ecommerce .png" alt="E-Commerce Platform" />
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="card-content">
+              <h2 class="card-title">ClipNova</h2>
+              <p class="card-paragraph">
+                ClipNova is an intelligent video editing tool that streamlines
+                the editing process by detecting and managing “empty spaces” in
+                video footage. Designed for creators and editors, the tool
+                automatically identifies silent segments, low-motion scenes, and
+                filler content—cutting down on editing time while preserving
+                creative control.
+              </p>
+              <button class="card-button">Video-Tech</button>
+            </div>
+            <div class="card-image">
+              <img
+                src="../assets/images/clip-nova.jpeg"
+                alt="ClipNova"
+              />
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Footer -->

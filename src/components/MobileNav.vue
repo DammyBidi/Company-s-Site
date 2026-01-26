@@ -19,9 +19,9 @@
       <li>
         <router-link to="/">Home</router-link>
       </li>
-      <!-- <li>
+      <li>
         <router-link to="/portfolio">Portfolio</router-link>
-      </li> -->
+      </li>
       <li>
         <router-link to="/services">Services</router-link>
       </li>
