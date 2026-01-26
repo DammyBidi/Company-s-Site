@@ -4,14 +4,9 @@
       <MobileNav @menuState="handleMenuState" />
       <nav>
         <div class="logo">
-          <router-link to="/"
-            ><img src="../assets/images/navlogo.svg" alt=""
+          <router-link to="/">
+            <img src="../assets/images/logo1.png" alt="" srcset=""
           /></router-link>
-          <!-- <img src="../assets/images/TTS Logo.svg" alt="" />
-          <div>
-            <h3>Trailblazing</h3>
-            <p>TECHNOLOGY SOLUTIONS</p>
-          </div> -->
         </div>
         <div class="nav-links">
           <router-link to="/">Home</router-link>
@@ -64,10 +59,7 @@
               <button class="card-button">Digital VTU & Bill Payment</button>
             </div>
             <div class="card-image">
-              <img
-                src="../assets/images/albarka.png"
-                alt="Albarka TopUp"
-              />
+              <img src="../assets/images/albarka.png" alt="Albarka TopUp" />
             </div>
           </div>
           <div class="portfolio-card">
@@ -145,7 +137,10 @@
               <button class="card-button">E-Commerce</button>
             </div>
             <div class="card-image">
-              <img src="../assets/images/ecommerce .png" alt="E-Commerce Platform" />
+              <img
+                src="../assets/images/ecommerce .png"
+                alt="E-Commerce Platform"
+              />
             </div>
           </div>
           <div class="portfolio-card">
@@ -162,10 +157,7 @@
               <button class="card-button">Video-Tech</button>
             </div>
             <div class="card-image">
-              <img
-                src="../assets/images/clip-nova.jpeg"
-                alt="ClipNova"
-              />
+              <img src="../assets/images/clip-nova.jpeg" alt="ClipNova" />
             </div>
           </div>
         </div>
